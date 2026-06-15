@@ -96,3 +96,7 @@ Jika Tahap 5 menghasilkan **True**, proyek dinyatakan sukses.
 Proyek ini membuktikan kapabilitas **Full-Stack Data Engineering & Analytics**:
 - Mengubah data market berkecepatan tinggi (raw, real-time) menjadi data terstruktur di PostgreSQL.
 - Menyajikan insight dalam bentuk BI Dashboard kelas *enterprise* menggunakan Apache Superset, yang dapat dipakai oleh level manajemen dan stakeholder non-teknis.
+
+
+## 7) Dokumentasi
+
