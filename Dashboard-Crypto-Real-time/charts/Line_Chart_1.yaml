@@ -1,0 +1,106 @@
+slice_name: Line Chart
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  datasource: 1__table
+  viz_type: echarts_timeseries_line
+  slice_id: 1
+  x_axis: fetched_at
+  time_grain_sqla: PT30M
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      changed_on: '2026-05-21T04:59:52.754607'
+      column_name: close_price
+      created_on: '2026-05-21T04:59:52.754606'
+      description: null
+      expression: null
+      extra: null
+      filterable: true
+      groupby: true
+      id: 7
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: e21eaa6a-9570-4248-92ed-628d59b5b536
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: AVG(close_price)
+    optionName: metric_dh7iz151ho_p5zz6vsltpk
+    sqlExpression: null
+  groupby:
+  - symbol
+  contributionMode: column
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_iolmzlij39c_fg5q01cbr7l
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: fetched_at
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  rolling_type: mean
+  rolling_periods: ''
+  min_periods: ''
+  time_compare: []
+  comparison_type: values
+  resample_method: ffill
+  annotation_layers: []
+  forecastEnabled: false
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title: ''
+  x_axis_title_margin: 15
+  y_axis_title: ''
+  y_axis_title_margin: 30
+  y_axis_title_position: Left
+  sort_series_type: sum
+  sort_series_ascending: false
+  color_scheme: googleCategory10c
+  show_value: false
+  area: false
+  markerEnabled: true
+  markerSize: 6
+  zoomable: false
+  minorTicks: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 0
+  xAxisLabelInterval: auto
+  rich_tooltip: true
+  showTooltipTotal: true
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.2f'
+  logAxis: false
+  minorSplitLine: false
+  truncateXAxis: true
+  truncateYAxis: false
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"fetched_at","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"PT30M","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"PT30M","columnType":"BASE_AXIS","sqlExpression":"fetched_at","label":"fetched_at","expressionType":"SQL","isColumnReference":true},"symbol"],"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"changed_on":"2026-05-21T04:59:52.754607","column_name":"close_price","created_on":"2026-05-21T04:59:52.754606","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":7,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"e21eaa6a-9570-4248-92ed-628d59b5b536","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(close_price)","optionName":"metric_dh7iz151ho_p5zz6vsltpk","sqlExpression":null}],"orderby":[[{"aggregate":"AVG","column":{"advanced_data_type":null,"changed_on":"2026-05-21T04:59:52.754607","column_name":"close_price","created_on":"2026-05-21T04:59:52.754606","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":7,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"e21eaa6a-9570-4248-92ed-628d59b5b536","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(close_price)","optionName":"metric_dh7iz151ho_p5zz6vsltpk","sqlExpression":null},false]],"annotation_layers":[],"row_limit":10000,"series_columns":["symbol"],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["fetched_at"],"columns":["symbol"],"aggregates":{"AVG(close_price)":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"rolling","options":{"rolling_type":"mean","window":1,"min_periods":0,"columns":{"AVG(close_price)":"AVG(close_price)"}}},{"operation":"rename","options":{"columns":{"AVG(close_price)":null},"level":0,"inplace":true}},{"operation":"contribution","options":{"orientation":"column","time_shifts":[]}},{"operation":"flatten"}]}],"form_data":{"datasource":"1__table","viz_type":"echarts_timeseries_line","slice_id":1,"x_axis":"fetched_at","time_grain_sqla":"PT30M","metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"changed_on":"2026-05-21T04:59:52.754607","column_name":"close_price","created_on":"2026-05-21T04:59:52.754606","description":null,"expression":null,"extra":null,"filterable":true,"groupby":true,"id":7,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"e21eaa6a-9570-4248-92ed-628d59b5b536","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(close_price)","optionName":"metric_dh7iz151ho_p5zz6vsltpk","sqlExpression":null}],"groupby":["symbol"],"contributionMode":"column","adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_iolmzlij39c_fg5q01cbr7l","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"fetched_at"}],"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"rolling_type":"mean","rolling_periods":"","min_periods":"","time_compare":[],"comparison_type":"values","resample_method":"ffill","annotation_layers":[],"forecastEnabled":false,"forecastPeriods":10,"forecastInterval":0.8,"x_axis_title":"","x_axis_title_margin":15,"y_axis_title":"","y_axis_title_margin":30,"y_axis_title_position":"Left","sort_series_type":"sum","sort_series_ascending":false,"color_scheme":"googleCategory10c","show_value":false,"area":false,"markerEnabled":true,"markerSize":6,"zoomable":false,"minorTicks":false,"show_legend":true,"legendType":"scroll","legendOrientation":"top","x_axis_time_format":"smart_date","xAxisLabelRotation":0,"xAxisLabelInterval":"auto","rich_tooltip":true,"showTooltipTotal":true,"tooltipSortByMetric":false,"tooltipTimeFormat":"smart_date","y_axis_format":",.2f","logAxis":false,"minorSplitLine":false,"truncateXAxis":true,"truncateYAxis":false,"extra_form_data":{},"dashboards":[1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0cb50da0-86f8-4792-9d17-1afa6bd72493
+version: 1.0.0
+dataset_uuid: 1ef07074-b6a0-48d3-aaa0-ca347370faa4

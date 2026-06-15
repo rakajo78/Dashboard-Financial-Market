@@ -1,0 +1,431 @@
+dashboard_title: Crypto Market Intelligence
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: e2760e6b-1e7b-485f-9516-5f675a725304
+position:
+  CHART-explore-1-1:
+    children: []
+    id: CHART-explore-1-1
+    meta:
+      chartId: 1
+      height: 50
+      sliceName: Line Chart
+      sliceNameOverride: Close Price Trend
+      uuid: 0cb50da0-86f8-4792-9d17-1afa6bd72493
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-nye2_tJ5r2fkvCJgiSMJZ
+    type: CHART
+  CHART-explore-10-1:
+    children: []
+    id: CHART-explore-10-1
+    meta:
+      chartId: 10
+      height: 16
+      sliceName: Cardano
+      uuid: 72d62de0-9e14-4ec1-8e32-89bd3aee265d
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  CHART-explore-11-1:
+    children: []
+    id: CHART-explore-11-1
+    meta:
+      chartId: 11
+      height: 16
+      sliceName: Dogecoin
+      uuid: ebb5730b-f130-4bca-8562-8778db5a23cf
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  CHART-explore-12-1:
+    children: []
+    id: CHART-explore-12-1
+    meta:
+      chartId: 12
+      height: 50
+      sliceName: Table
+      sliceNameOverride: Asset Scorecard
+      uuid: 363768ac-abe5-451b-b181-b450905079d3
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-COUpJJ9T6-fsAHUlP6ghV
+    type: CHART
+  CHART-explore-2-1:
+    children: []
+    id: CHART-explore-2-1
+    meta:
+      chartId: 2
+      height: 50
+      sliceName: Boxplot
+      sliceNameOverride: Price Distribution
+      uuid: 80b271b4-82af-4e8b-a718-85adcf322542
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-nye2_tJ5r2fkvCJgiSMJZ
+    type: CHART
+  CHART-explore-3-1:
+    children: []
+    id: CHART-explore-3-1
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: Waterfall Chart
+      sliceNameOverride: Price Movement
+      uuid: 1aadc30a-ed2d-4d41-9970-c9f218387824
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-nye2_tJ5r2fkvCJgiSMJZ
+    type: CHART
+  CHART-explore-4-1:
+    children: []
+    id: CHART-explore-4-1
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: Bar Chart Ver1
+      sliceNameOverride: Market Cap Ranking
+      uuid: b434dc73-5120-416e-943d-ff9c2007e6a8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-COUpJJ9T6-fsAHUlP6ghV
+    type: CHART
+  CHART-explore-5-1:
+    children: []
+    id: CHART-explore-5-1
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: Bar Chart Ver2
+      sliceNameOverride: 24h Price Change
+      uuid: a5a9473e-4c70-47f6-8c52-4274a62ec766
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-COUpJJ9T6-fsAHUlP6ghV
+    type: CHART
+  CHART-explore-6-1:
+    children: []
+    id: CHART-explore-6-1
+    meta:
+      chartId: 6
+      height: 16
+      sliceName: BTC
+      uuid: ebca5ee7-c6fb-4388-bae9-cbbe8215e36c
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  CHART-explore-7-1:
+    children: []
+    id: CHART-explore-7-1
+    meta:
+      chartId: 7
+      height: 16
+      sliceName: Ethereum
+      uuid: 8b2af2f4-fc78-4a4d-bfd7-0d94e76589b1
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  CHART-explore-8-1:
+    children: []
+    id: CHART-explore-8-1
+    meta:
+      chartId: 8
+      height: 16
+      sliceName: Solana
+      uuid: e1e90f77-f96c-48cf-ba95-d7cdf358dd34
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  CHART-explore-9-1:
+    children: []
+    id: CHART-explore-9-1
+    meta:
+      chartId: 9
+      height: 16
+      sliceName: Ripple
+      uuid: 408c6dd0-0328-4173-a4a8-45355f474b7d
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  DIVIDER-Z0AubR8ScuUy3kCh2j3ZG:
+    children: []
+    id: DIVIDER-Z0AubR8ScuUy3kCh2j3ZG
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: DIVIDER
+  DIVIDER-fJ6NuGlTH1hWwHvV6Fe_m:
+    children: []
+    id: DIVIDER-fJ6NuGlTH1hWwHvV6Fe_m
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: DIVIDER
+  GRID_ID:
+    children:
+    - HEADER-45jp4B6m5xUkL_y1FzGM7
+    - ROW-Tgljq_q9I7WjHLgGD-T-I
+    - DIVIDER-Z0AubR8ScuUy3kCh2j3ZG
+    - ROW-nye2_tJ5r2fkvCJgiSMJZ
+    - DIVIDER-fJ6NuGlTH1hWwHvV6Fe_m
+    - ROW-COUpJJ9T6-fsAHUlP6ghV
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER-45jp4B6m5xUkL_y1FzGM7:
+    children: []
+    id: HEADER-45jp4B6m5xUkL_y1FzGM7
+    meta:
+      background: BACKGROUND_WHITE
+      headerSize: LARGE_HEADER
+      text: "Real-time market monitoring \xB7 Powered by CoinGecko"
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: HEADER
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Crypto Market Intelligence
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-COUpJJ9T6-fsAHUlP6ghV:
+    children:
+    - CHART-explore-4-1
+    - CHART-explore-5-1
+    - CHART-explore-12-1
+    id: ROW-COUpJJ9T6-fsAHUlP6ghV
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-Tgljq_q9I7WjHLgGD-T-I:
+    children:
+    - CHART-explore-6-1
+    - CHART-explore-7-1
+    - CHART-explore-8-1
+    - CHART-explore-9-1
+    - CHART-explore-10-1
+    - CHART-explore-11-1
+    id: ROW-Tgljq_q9I7WjHLgGD-T-I
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-nye2_tJ5r2fkvCJgiSMJZ:
+    children:
+    - CHART-explore-3-1
+    - CHART-explore-1-1
+    - CHART-explore-2-1
+    id: ROW-nye2_tJ5r2fkvCJgiSMJZ
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  label_colors: {}
+  color_scheme: supersetColors
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  cross_filters_enabled: true
+  chart_configuration:
+    '1':
+      id: 1
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+    '12':
+      id: 12
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  default_filters: '{}'
+  stagger_refresh: true
+  color_scheme_domain:
+  - '#1FA8C9'
+  - '#454E7C'
+  - '#5AC189'
+  - '#FF7F44'
+  - '#666666'
+  - '#E04355'
+  - '#FCC700'
+  - '#A868B7'
+  - '#3CCCCB'
+  - '#A38F79'
+  - '#8FD3E4'
+  - '#A1A6BD'
+  - '#ACE1C4'
+  - '#FEC0A1'
+  - '#B2B2B2'
+  - '#EFA1AA'
+  - '#FDE380'
+  - '#D3B3DA'
+  - '#9EE5E5'
+  - '#D1C6BC'
+  shared_label_colors:
+  - ADA
+  - BTC
+  - DOGE
+  - ETH
+  - SOL
+  - XRP
+  - bitcoin
+  - cardano
+  - dogecoin
+  - ethereum
+  - ripple
+  - solana
+  map_label_colors:
+    BTC: '#1FA8C9'
+    bitcoin: '#454E7C'
+    ETH: '#5AC189'
+    ethereum: '#FF7F44'
+    XRP: '#666666'
+    SOL: '#E04355'
+    ripple: '#FCC700'
+    solana: '#A868B7'
+    DOGE: '#3CCCCB'
+    ADA: '#A38F79'
+    dogecoin: '#8FD3E4'
+    cardano: '#A1A6BD'
+theme_uuid: null
+version: 1.0.0

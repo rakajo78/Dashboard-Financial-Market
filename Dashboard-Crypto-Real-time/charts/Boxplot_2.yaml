@@ -1,0 +1,155 @@
+slice_name: Boxplot
+description: null
+certified_by: null
+certification_details: null
+viz_type: box_plot
+params:
+  datasource: 1__table
+  viz_type: box_plot
+  columns:
+  - open_price
+  - high_price
+  - low_price
+  - close_price
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    timestamp: true
+    fetched_at: true
+  groupby:
+  - symbol
+  metrics:
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: open_price
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 4
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: 752524d6-53b0-49ed-a782-86afb95d83d1
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(open_price)
+    optionName: metric_iqv8oiachur_70xjx7qveqv
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: high_price
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 5
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: 5bd37c6b-15ee-44fe-a4ad-4945f62bfc6b
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(high_price)
+    optionName: metric_q75iqky427j_5dzhf0j0l7a
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: low_price
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 6
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: 23b3cfff-d08c-4eb8-9de6-de4035eb2e9c
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(low_price)
+    optionName: metric_xe1ll4cebl_5hqiir7ao18
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: close_price
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 7
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: e21eaa6a-9570-4248-92ed-628d59b5b536
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(close_price)
+    optionName: metric_0p1tcp8nah3_l7rk863q13
+  adhoc_filters:
+  - clause: WHERE
+    subject: timestamp
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  row_limit: 10000
+  whiskerOptions: Tukey
+  x_axis_title: ''
+  x_axis_title_margin: 15
+  y_axis_title: ''
+  y_axis_title_margin: 30
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  x_ticks_layout: auto
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"timestamp","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["open_price","high_price","low_price","close_price","symbol"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"open_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":4,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"752524d6-53b0-49ed-a782-86afb95d83d1","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(open_price)","optionName":"metric_iqv8oiachur_70xjx7qveqv"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"high_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":5,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"5bd37c6b-15ee-44fe-a4ad-4945f62bfc6b","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(high_price)","optionName":"metric_q75iqky427j_5dzhf0j0l7a"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"low_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":6,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"23b3cfff-d08c-4eb8-9de6-de4035eb2e9c","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(low_price)","optionName":"metric_xe1ll4cebl_5hqiir7ao18"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"close_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":7,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"e21eaa6a-9570-4248-92ed-628d59b5b536","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(close_price)","optionName":"metric_0p1tcp8nah3_l7rk863q13"}],"annotation_layers":[],"row_limit":10000,"series_columns":["symbol"],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"boxplot","options":{"whisker_type":"tukey","groupby":["symbol"],"metrics":["AVG(open_price)","AVG(high_price)","AVG(low_price)","AVG(close_price)"]}}]}],"form_data":{"datasource":"1__table","viz_type":"box_plot","columns":["open_price","high_price","low_price","close_price"],"time_grain_sqla":"P1D","temporal_columns_lookup":{"timestamp":true,"fetched_at":true},"groupby":["symbol"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"open_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":4,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"752524d6-53b0-49ed-a782-86afb95d83d1","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(open_price)","optionName":"metric_iqv8oiachur_70xjx7qveqv"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"high_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":5,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"5bd37c6b-15ee-44fe-a4ad-4945f62bfc6b","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(high_price)","optionName":"metric_q75iqky427j_5dzhf0j0l7a"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"low_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":6,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"23b3cfff-d08c-4eb8-9de6-de4035eb2e9c","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(low_price)","optionName":"metric_xe1ll4cebl_5hqiir7ao18"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"close_price","description":null,"expression":null,"filterable":true,"groupby":true,"id":7,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"e21eaa6a-9570-4248-92ed-628d59b5b536","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(close_price)","optionName":"metric_0p1tcp8nah3_l7rk863q13"}],"adhoc_filters":[{"clause":"WHERE","subject":"timestamp","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":10000,"whiskerOptions":"Tukey","x_axis_title":"","x_axis_title_margin":15,"y_axis_title":"","y_axis_title_margin":30,"y_axis_title_position":"Left","color_scheme":"supersetColors","x_ticks_layout":"auto","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 80b271b4-82af-4e8b-a718-85adcf322542
+version: 1.0.0
+dataset_uuid: 1ef07074-b6a0-48d3-aaa0-ca347370faa4

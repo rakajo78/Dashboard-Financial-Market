@@ -1,0 +1,87 @@
+slice_name: BTC
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number
+params:
+  datasource: 2__table
+  viz_type: big_number
+  slice_id: 6
+  x_axis: fetched_at
+  time_grain_sqla: PT1H
+  aggregation: LAST_VALUE
+  metric:
+    aggregate: MAX
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: price_usd
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 11
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC(20, 8)
+      type_generic: 0
+      uuid: d08d919b-ef5c-4694-befb-6044f1f17f69
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: MAX(price_usd)
+    optionName: metric_boh0qus0isq_h2m75hoord
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator: bitcoin
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_y985mg0orn_kd1z1x9sumg
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: EQUALS
+    sqlExpression: null
+    subject: symbol
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: fetched_at
+  show_timestamp: false
+  show_trend_line: true
+  start_y_axis_at_zero: true
+  color_picker:
+    a: 1
+    b: 135
+    g: 122
+    r: 0
+  header_font_size: 0.6
+  subheader_font_size: 0.2
+  subtitle: ''
+  subtitle_font_size: 0.15
+  show_metric_name: false
+  y_axis_format: ',.2f'
+  currency_format:
+    symbol: USD
+    symbolPosition: prefix
+  time_format: smart_date
+  force_timestamp_formatting: false
+  rolling_type: None
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"symbol","op":"==","val":"bitcoin"},{"col":"fetched_at","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"PT1H","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"PT1H","columnType":"BASE_AXIS","sqlExpression":"fetched_at","label":"fetched_at","expressionType":"SQL","isColumnReference":true}],"metrics":[{"aggregate":"MAX","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"price_usd","description":null,"expression":null,"filterable":true,"groupby":true,"id":11,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"d08d919b-ef5c-4694-befb-6044f1f17f69","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"MAX(price_usd)","optionName":"metric_boh0qus0isq_h2m75hoord","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["fetched_at"],"columns":[],"aggregates":{"MAX(price_usd)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"2__table","viz_type":"big_number","slice_id":6,"x_axis":"fetched_at","time_grain_sqla":"PT1H","aggregation":"LAST_VALUE","metric":{"aggregate":"MAX","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"price_usd","description":null,"expression":null,"filterable":true,"groupby":true,"id":11,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC(20,
+  8)","type_generic":0,"uuid":"d08d919b-ef5c-4694-befb-6044f1f17f69","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"MAX(price_usd)","optionName":"metric_boh0qus0isq_h2m75hoord","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","comparator":"bitcoin","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_y985mg0orn_kd1z1x9sumg","isExtra":false,"isNew":false,"operator":"==","operatorId":"EQUALS","sqlExpression":null,"subject":"symbol"},{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"fetched_at"}],"show_timestamp":false,"show_trend_line":true,"start_y_axis_at_zero":true,"color_picker":{"a":1,"b":135,"g":122,"r":0},"header_font_size":0.6,"subheader_font_size":0.2,"subtitle":"","subtitle_font_size":0.15,"show_metric_name":false,"y_axis_format":",.2f","currency_format":{"symbol":"USD","symbolPosition":"prefix"},"time_format":"smart_date","force_timestamp_formatting":false,"rolling_type":"None","extra_form_data":{},"dashboards":[1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: ebca5ee7-c6fb-4388-bae9-cbbe8215e36c
+version: 1.0.0
+dataset_uuid: fb317c92-8329-4b04-9935-f5371c248e5f
