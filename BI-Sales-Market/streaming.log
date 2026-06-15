@@ -1,0 +1,1336 @@
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | 📋 Symbols: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT, ADAUSDT, DOGEUSDT
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | ⏱️  Price interval: 5s
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 60s
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | 📡 Data source: Binance Public API
+2026-05-18 19:47:00,576 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:00,601 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 19:47:00,776 | ERROR    | StreamingEngine      | 💀 Cannot start — Binance API unreachable
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | 📋 Symbols: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT, ADAUSDT, DOGEUSDT
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | ⏱️  Price interval: 5s
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 60s
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | 📡 Data source: Binance Public API
+2026-05-18 19:47:27,200 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:27,222 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 19:47:27,342 | ERROR    | StreamingEngine      | 💀 Cannot start — Binance API unreachable
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | 📋 Symbols: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT, ADAUSDT, DOGEUSDT
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | ⏱️  Price interval: 5s
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 60s
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | 📡 Data source: Binance Public API
+2026-05-18 19:47:40,772 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:47:40,797 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 19:47:40,894 | ERROR    | StreamingEngine      | 💀 Cannot start — Binance API unreachable
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-18 19:52:18,458 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:52:18,481 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 19:52:19,083 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.60s)
+2026-05-18 19:52:19,083 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-18 19:52:19,083 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-18 19:52:19,492 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,614.00, ADA=$0.25, DOGE=$0.11, ETH=$2,150.89, XRP=$1.40, SOL=$85.55
+2026-05-18 19:52:19,522 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 12:52:19 UTC
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-18 19:54:41,688 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:54:41,753 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 19:54:42,334 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.58s)
+2026-05-18 19:54:42,335 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-18 19:54:42,335 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-18 19:54:42,400 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,578.00, ADA=$0.25, DOGE=$0.11, ETH=$2,149.93, XRP=$1.40, SOL=$85.51
+2026-05-18 19:54:42,407 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 12:54:42 UTC
+2026-05-18 19:54:52,336 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-18 19:54:52,399 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-18 19:54:52,420 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for BTC
+2026-05-18 19:54:54,438 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-18 19:54:54,454 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for ETH
+2026-05-18 19:54:57,411 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-05-18 19:54:57,487 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 1/3
+2026-05-18 19:55:57,567 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-18 19:55:59,867 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,568.00, ADA=$0.25, DOGE=$0.11, ETH=$2,149.93, XRP=$1.40, SOL=$85.46
+2026-05-18 19:55:59,874 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 12:55:59 UTC
+2026-05-18 19:56:14,879 | INFO     | StreamingEngine      | ── Cycle 3 ──
+2026-05-18 19:56:14,963 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,568.00, ADA=$0.25, DOGE=$0.11, ETH=$2,149.93, XRP=$1.40, SOL=$85.46
+2026-05-18 19:56:14,967 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 12:56:14 UTC
+2026-05-18 19:56:21,350 | INFO     | StreamingEngine      | 
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      |    ⏱️  Runtime: 99.0 seconds
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 18
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 96
+2026-05-18 19:56:21,351 | INFO     | StreamingEngine      |    ❌ Fetch errors: 0
+2026-05-18 19:56:21,353 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 354 rows
+2026-05-18 19:56:21,353 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 240 rows
+2026-05-18 19:56:21,353 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-18 19:56:21,353 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 19:56:21,353 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-18 20:00:19,906 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:00:19,906 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 20:00:19,906 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:00:19,906 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-18 20:00:19,907 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-18 20:00:19,907 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-18 20:00:19,907 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-18 20:00:19,907 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:00:19,935 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 20:00:20,399 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.46s)
+2026-05-18 20:00:20,400 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-18 20:00:20,400 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-18 20:00:20,785 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,586.00, ADA=$0.25, DOGE=$0.11, ETH=$2,150.94, XRP=$1.40, SOL=$85.51
+2026-05-18 20:00:20,793 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 13:00:20 UTC
+2026-05-18 20:00:30,405 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-18 20:00:30,477 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-18 20:00:30,491 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for BTC
+2026-05-18 20:00:32,486 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-18 20:00:32,501 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for ETH
+2026-05-18 20:00:35,798 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-05-18 20:00:35,867 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,586.00, ADA=$0.25, DOGE=$0.11, ETH=$2,150.94, XRP=$1.40, SOL=$85.51
+2026-05-18 20:00:35,871 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 13:00:35 UTC
+2026-05-18 20:00:45,870 | INFO     | StreamingEngine      | 
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      |    ⏱️  Runtime: 25.5 seconds
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 12
+2026-05-18 20:00:45,872 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 0
+2026-05-18 20:00:45,873 | INFO     | StreamingEngine      |    ❌ Fetch errors: 0
+2026-05-18 20:00:45,876 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 366 rows
+2026-05-18 20:00:45,876 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 240 rows
+2026-05-18 20:00:45,876 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-18 20:00:45,876 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:00:45,876 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-18 20:28:22,792 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-18 20:28:22,793 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:28:22,875 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-18 20:28:23,343 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.47s)
+2026-05-18 20:28:23,344 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-18 20:28:23,345 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-18 20:28:23,685 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,297.00, ADA=$0.25, DOGE=$0.11, ETH=$2,143.48, XRP=$1.39, SOL=$85.20
+2026-05-18 20:28:23,699 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 13:28:23 UTC
+2026-05-18 20:28:33,349 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-18 20:28:33,429 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-18 20:28:33,446 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for BTC
+2026-05-18 20:28:35,463 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-18 20:28:35,482 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for ETH
+2026-05-18 20:28:36,485 | INFO     | StreamingEngine      | 
+2026-05-18 20:28:36,485 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:28:36,485 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-18 20:28:36,485 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-18 20:28:36,485 | INFO     | StreamingEngine      |    ⏱️  Runtime: 13.1 seconds
+2026-05-18 20:28:36,486 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 6
+2026-05-18 20:28:36,486 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 2
+2026-05-18 20:28:36,486 | INFO     | StreamingEngine      |    ❌ Fetch errors: 0
+2026-05-18 20:28:36,488 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 372 rows
+2026-05-18 20:28:36,488 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 242 rows
+2026-05-18 20:28:36,488 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-18 20:28:36,488 | INFO     | StreamingEngine      | ============================================================
+2026-05-18 20:28:36,488 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-21 13:47:14,726 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 13:47:14,727 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 13:47:14,755 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 13:47:15,481 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.73s)
+2026-05-21 13:47:15,482 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-21 13:47:15,482 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-21 13:47:15,528 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 1/3
+2026-05-21 13:47:25,486 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 13:47:25,528 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 50s before retry 1/3
+2026-05-21 13:48:15,595 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 13:48:17,671 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-21 13:48:17,702 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for BTC
+2026-05-21 13:48:18,035 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,577.00, ADA=$0.25, DOGE=$0.10, ETH=$2,128.37, XRP=$1.37, SOL=$86.21
+2026-05-21 13:48:18,046 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 06:48:18 UTC
+2026-05-21 13:48:19,585 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 1/3
+2026-05-21 13:48:33,051 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-05-21 13:48:33,099 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 46s before retry 1/3
+2026-05-21 13:48:44,346 | INFO     | StreamingEngine      | 
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      |    ⏱️  Runtime: 88.9 seconds
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 6
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 48
+2026-05-21 13:48:44,347 | INFO     | StreamingEngine      |    ❌ Fetch errors: 0
+2026-05-21 13:48:44,351 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 378 rows
+2026-05-21 13:48:44,351 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 290 rows
+2026-05-21 13:48:44,351 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-21 13:48:44,351 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 13:48:44,351 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-21 14:13:12,670 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 14:13:12,671 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:13:12,858 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 14:13:13,379 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.52s)
+2026-05-21 14:13:13,379 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-21 14:13:13,380 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-21 14:13:13,773 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,512.00, ADA=$0.25, DOGE=$0.10, ETH=$2,126.53, XRP=$1.37, SOL=$86.27
+2026-05-21 14:13:13,786 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:13:13 UTC
+2026-05-21 14:13:23,380 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:13:23,599 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 52s before retry 1/3
+2026-05-21 14:13:28,790 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-05-21 14:13:28,839 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 47s before retry 1/3
+2026-05-21 14:14:15,646 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:14:17,636 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:14:17,743 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 2/3
+2026-05-21 14:15:17,640 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/coins/bitcoin/ohlc
+2026-05-21 14:15:17,699 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 1/3
+2026-05-21 14:15:19,718 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:15:19,744 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for ETH
+2026-05-21 14:15:19,963 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,526.00, ADA=$0.25, DOGE=$0.10, ETH=$2,126.83, XRP=$1.37, SOL=$86.33
+2026-05-21 14:15:19,966 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:15:19 UTC
+2026-05-21 14:15:34,967 | INFO     | StreamingEngine      | ── Cycle 3 ──
+2026-05-21 14:15:35,020 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,526.00, ADA=$0.25, DOGE=$0.10, ETH=$2,126.83, XRP=$1.37, SOL=$86.33
+2026-05-21 14:15:35,027 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:15:35 UTC
+2026-05-21 14:15:50,033 | INFO     | StreamingEngine      | ── Cycle 4 ──
+2026-05-21 14:15:50,096 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,526.00, ADA=$0.25, DOGE=$0.10, ETH=$2,126.83, XRP=$1.37, SOL=$86.33
+2026-05-21 14:15:50,102 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:15:50 UTC
+2026-05-21 14:16:05,107 | INFO     | StreamingEngine      | ── Cycle 5 ──
+2026-05-21 14:16:05,163 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,526.00, ADA=$0.25, DOGE=$0.10, ETH=$2,126.83, XRP=$1.37, SOL=$86.33
+2026-05-21 14:16:05,168 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:16:05 UTC
+2026-05-21 14:16:20,173 | INFO     | StreamingEngine      | ── Cycle 6 ──
+2026-05-21 14:16:20,215 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 55s before retry 1/3
+2026-05-21 14:17:15,282 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:17:17,270 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:18:17,273 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-05-21 14:18:17,277 | WARNING  | StreamingEngine      | ⚠️  No data fetched in cycle 6
+2026-05-21 14:18:32,281 | INFO     | StreamingEngine      | ── Cycle 7 ──
+2026-05-21 14:18:32,563 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,482.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.24, XRP=$1.37, SOL=$86.28
+2026-05-21 14:18:32,596 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:18:32 UTC
+2026-05-21 14:18:47,602 | INFO     | StreamingEngine      | ── Cycle 8 ──
+2026-05-21 14:18:47,661 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,482.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.24, XRP=$1.37, SOL=$86.28
+2026-05-21 14:18:47,667 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:18:47 UTC
+2026-05-21 14:19:02,672 | INFO     | StreamingEngine      | ── Cycle 9 ──
+2026-05-21 14:19:02,733 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,482.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.24, XRP=$1.37, SOL=$86.28
+2026-05-21 14:19:02,736 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:19:02 UTC
+2026-05-21 14:19:17,739 | INFO     | StreamingEngine      | ── Cycle 10 ──
+2026-05-21 14:19:17,779 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 59s before retry 1/3
+2026-05-21 14:20:16,821 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:20:19,097 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,471.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.26, XRP=$1.37, SOL=$86.31
+2026-05-21 14:20:19,102 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:20:19 UTC
+2026-05-21 14:20:19,727 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:20:20,843 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-21 14:20:20,871 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for BTC
+2026-05-21 14:20:22,851 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:20:22,861 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for ETH
+2026-05-21 14:20:34,106 | INFO     | StreamingEngine      | ── Cycle 11 ──
+2026-05-21 14:20:34,156 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,471.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.26, XRP=$1.37, SOL=$86.31
+2026-05-21 14:20:34,159 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:20:34 UTC
+2026-05-21 14:20:49,163 | INFO     | StreamingEngine      | ── Cycle 12 ──
+2026-05-21 14:20:49,233 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,471.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.26, XRP=$1.37, SOL=$86.31
+2026-05-21 14:20:49,237 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:20:49 UTC
+2026-05-21 14:21:04,240 | INFO     | StreamingEngine      | ── Cycle 13 ──
+2026-05-21 14:21:04,299 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,471.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.26, XRP=$1.37, SOL=$86.31
+2026-05-21 14:21:04,303 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:21:04 UTC
+2026-05-21 14:21:19,310 | INFO     | StreamingEngine      | ── Cycle 14 ──
+2026-05-21 14:21:19,366 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 56s before retry 1/3
+2026-05-21 14:22:15,410 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:22:18,434 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,465.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.15, XRP=$1.37, SOL=$86.29
+2026-05-21 14:22:18,442 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:22:18 UTC
+2026-05-21 14:22:33,446 | INFO     | StreamingEngine      | ── Cycle 15 ──
+2026-05-21 14:22:33,508 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,465.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.15, XRP=$1.37, SOL=$86.29
+2026-05-21 14:22:33,514 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:22:33 UTC
+2026-05-21 14:22:48,519 | INFO     | StreamingEngine      | ── Cycle 16 ──
+2026-05-21 14:22:48,577 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,465.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.15, XRP=$1.37, SOL=$86.29
+2026-05-21 14:22:48,582 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:22:48 UTC
+2026-05-21 14:23:03,584 | INFO     | StreamingEngine      | ── Cycle 17 ──
+2026-05-21 14:23:03,636 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,465.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.15, XRP=$1.37, SOL=$86.29
+2026-05-21 14:23:03,640 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:23:03 UTC
+2026-05-21 14:23:18,645 | INFO     | StreamingEngine      | ── Cycle 18 ──
+2026-05-21 14:23:18,691 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 58s before retry 1/3
+2026-05-21 14:24:16,744 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:24:19,009 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,467.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.63, XRP=$1.37, SOL=$86.31
+2026-05-21 14:24:19,016 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:24:19 UTC
+2026-05-21 14:24:34,021 | INFO     | StreamingEngine      | ── Cycle 19 ──
+2026-05-21 14:24:34,076 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,467.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.63, XRP=$1.37, SOL=$86.31
+2026-05-21 14:24:34,082 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:24:34 UTC
+2026-05-21 14:24:49,086 | INFO     | StreamingEngine      | ── Cycle 20 ──
+2026-05-21 14:24:49,157 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,467.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.63, XRP=$1.37, SOL=$86.31
+2026-05-21 14:24:49,160 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:24:49 UTC
+2026-05-21 14:25:04,165 | INFO     | StreamingEngine      | ── Cycle 21 ──
+2026-05-21 14:25:04,228 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,467.00, ADA=$0.25, DOGE=$0.10, ETH=$2,124.63, XRP=$1.37, SOL=$86.31
+2026-05-21 14:25:04,234 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:25:04 UTC
+2026-05-21 14:25:19,239 | INFO     | StreamingEngine      | ── Cycle 22 ──
+2026-05-21 14:25:19,290 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 56s before retry 1/3
+2026-05-21 14:25:22,852 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:25:22,900 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 53s before retry 1/3
+2026-05-21 14:26:15,335 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:26:17,356 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:26:17,491 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 2/3
+2026-05-21 14:27:17,359 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-05-21 14:27:17,363 | WARNING  | StreamingEngine      | ⚠️  No data fetched in cycle 22
+2026-05-21 14:27:17,545 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 3/3
+2026-05-21 14:27:17,546 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/coins/bitcoin/ohlc
+2026-05-21 14:27:19,551 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:27:19,572 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for ETH
+2026-05-21 14:27:32,364 | INFO     | StreamingEngine      | ── Cycle 23 ──
+2026-05-21 14:27:32,702 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,510.00, ADA=$0.25, DOGE=$0.11, ETH=$2,126.65, XRP=$1.37, SOL=$86.40
+2026-05-21 14:27:32,707 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:27:32 UTC
+2026-05-21 14:27:47,711 | INFO     | StreamingEngine      | ── Cycle 24 ──
+2026-05-21 14:27:47,774 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,510.00, ADA=$0.25, DOGE=$0.11, ETH=$2,126.65, XRP=$1.37, SOL=$86.40
+2026-05-21 14:27:47,780 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:27:47 UTC
+2026-05-21 14:28:02,783 | INFO     | StreamingEngine      | ── Cycle 25 ──
+2026-05-21 14:28:02,894 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,510.00, ADA=$0.25, DOGE=$0.11, ETH=$2,126.65, XRP=$1.37, SOL=$86.40
+2026-05-21 14:28:02,902 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:28:02 UTC
+2026-05-21 14:28:17,906 | INFO     | StreamingEngine      | ── Cycle 26 ──
+2026-05-21 14:28:17,954 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 58s before retry 1/3
+2026-05-21 14:29:15,995 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:29:18,280 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,525.00, ADA=$0.25, DOGE=$0.11, ETH=$2,127.49, XRP=$1.37, SOL=$86.41
+2026-05-21 14:29:18,287 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:29:18 UTC
+2026-05-21 14:29:33,291 | INFO     | StreamingEngine      | ── Cycle 27 ──
+2026-05-21 14:29:33,356 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,525.00, ADA=$0.25, DOGE=$0.11, ETH=$2,127.49, XRP=$1.37, SOL=$86.41
+2026-05-21 14:29:33,360 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:29:33 UTC
+2026-05-21 14:29:48,365 | INFO     | StreamingEngine      | ── Cycle 28 ──
+2026-05-21 14:29:48,609 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,525.00, ADA=$0.25, DOGE=$0.11, ETH=$2,127.49, XRP=$1.37, SOL=$86.41
+2026-05-21 14:29:48,612 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:29:48 UTC
+2026-05-21 14:30:03,614 | INFO     | StreamingEngine      | ── Cycle 29 ──
+2026-05-21 14:30:03,678 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,525.00, ADA=$0.25, DOGE=$0.11, ETH=$2,127.49, XRP=$1.37, SOL=$86.41
+2026-05-21 14:30:03,684 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:30:03 UTC
+2026-05-21 14:30:18,687 | INFO     | StreamingEngine      | ── Cycle 30 ──
+2026-05-21 14:30:18,729 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 57s before retry 1/3
+2026-05-21 14:31:15,770 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:31:17,787 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:31:47,003 | INFO     | StreamingEngine      | 
+2026-05-21 14:31:47,008 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:31:47,008 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-21 14:31:47,008 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-21 14:31:47,008 | INFO     | StreamingEngine      |    ⏱️  Runtime: 1113.6 seconds
+2026-05-21 14:31:47,009 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 162
+2026-05-21 14:31:47,009 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 49
+2026-05-21 14:31:47,009 | INFO     | StreamingEngine      |    ❌ Fetch errors: 2
+2026-05-21 14:31:47,013 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 540 rows
+2026-05-21 14:31:47,013 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 339 rows
+2026-05-21 14:31:47,014 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-21 14:31:47,014 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:31:47,014 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-21 14:35:43,979 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 14:35:43,980 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:35:44,143 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 14:35:44,314 | ERROR    | StreamingEngine      | 💀 Cannot start — CoinGecko API unreachable
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 14:36:18,427 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:36:18,445 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 14:36:18,563 | ERROR    | StreamingEngine      | 💀 Cannot start — CoinGecko API unreachable
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | ⏱️  Price interval: 15s
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 14:39:27,503 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:39:27,661 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 14:39:27,782 | WARNING  | src.api_client       | ⏳ Ping returned 429 Rate Limited, but API is reachable.
+2026-05-21 14:39:27,783 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.12s)
+2026-05-21 14:39:27,783 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-21 14:39:27,783 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-21 14:39:27,813 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 48s before retry 1/3
+2026-05-21 14:39:37,786 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:39:37,828 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 38s before retry 1/3
+2026-05-21 14:40:15,873 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:40:17,855 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:40:17,983 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 2/3
+2026-05-21 14:41:17,853 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-05-21 14:41:17,854 | WARNING  | StreamingEngine      | ⚠️  No data fetched in cycle 1
+2026-05-21 14:41:18,053 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-21 14:41:18,090 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for BTC
+2026-05-21 14:41:20,037 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:41:20,054 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for ETH
+2026-05-21 14:41:32,859 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-05-21 14:41:33,840 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,598.00, ADA=$0.25, DOGE=$0.11, ETH=$2,128.77, XRP=$1.37, SOL=$86.50
+2026-05-21 14:41:33,847 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:41:33 UTC
+2026-05-21 14:41:48,849 | INFO     | StreamingEngine      | ── Cycle 3 ──
+2026-05-21 14:41:48,900 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,598.00, ADA=$0.25, DOGE=$0.11, ETH=$2,128.77, XRP=$1.37, SOL=$86.50
+2026-05-21 14:41:48,902 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:41:48 UTC
+2026-05-21 14:42:03,907 | INFO     | StreamingEngine      | ── Cycle 4 ──
+2026-05-21 14:42:03,959 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,598.00, ADA=$0.25, DOGE=$0.11, ETH=$2,128.77, XRP=$1.37, SOL=$86.50
+2026-05-21 14:42:03,965 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:42:03 UTC
+2026-05-21 14:42:18,967 | INFO     | StreamingEngine      | ── Cycle 5 ──
+2026-05-21 14:42:19,018 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 56s before retry 1/3
+2026-05-21 14:43:15,096 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 0s before retry 2/3
+2026-05-21 14:43:17,076 | WARNING  | src.api_client       | ⏳ Rate limited (429). Waiting 60s before retry 3/3
+2026-05-21 14:44:17,079 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-05-21 14:44:17,082 | WARNING  | StreamingEngine      | ⚠️  No data fetched in cycle 5
+2026-05-21 14:44:32,088 | INFO     | StreamingEngine      | ── Cycle 6 ──
+2026-05-21 14:44:33,094 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$77,618.00, ADA=$0.25, DOGE=$0.11, ETH=$2,129.26, XRP=$1.37, SOL=$86.50
+2026-05-21 14:44:33,114 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 07:44:33 UTC
+2026-05-21 14:44:33,672 | INFO     | StreamingEngine      | 
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      |    ⏱️  Runtime: 305.9 seconds
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 24
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 2
+2026-05-21 14:44:33,673 | INFO     | StreamingEngine      |    ❌ Fetch errors: 2
+2026-05-21 14:44:33,677 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 564 rows
+2026-05-21 14:44:33,677 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 341 rows
+2026-05-21 14:44:33,678 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-21 14:44:33,679 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:44:33,679 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | ⏱️  Price interval: 60s
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-05-21 14:47:59,329 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:47:59,432 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-05-21 14:47:59,799 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.37s)
+2026-05-21 14:47:59,800 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-05-21 14:47:59,801 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-05-21 14:47:59,835 | WARNING  | src.api_client       | ⏳ Rate limited (429). Exponential backoff: Waiting 60s before retry 1/3
+2026-05-21 14:48:09,805 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:48:09,848 | WARNING  | src.api_client       | ⏳ Rate limited (429). Exponential backoff: Waiting 60s before retry 1/3
+2026-05-21 14:48:59,885 | WARNING  | src.api_client       | ⏳ Rate limited (429). Exponential backoff: Waiting 120s before retry 2/3
+2026-05-21 14:49:09,902 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-21 14:49:09,957 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for BTC
+2026-05-21 14:49:11,900 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:49:11,914 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for ETH
+2026-05-21 14:50:59,941 | WARNING  | src.api_client       | ⏳ Rate limited (429). Exponential backoff: Waiting 180s before retry 3/3
+2026-05-21 14:53:59,937 | ERROR    | src.api_client       | 💀 All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-05-21 14:53:59,939 | WARNING  | StreamingEngine      | ⚠️  No data fetched in cycle 1
+2026-05-21 14:54:11,902 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-05-21 14:54:11,953 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-05-21 14:54:12,008 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for BTC
+2026-05-21 14:54:13,954 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-05-21 14:54:13,970 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for ETH
+2026-05-21 14:54:20,804 | INFO     | StreamingEngine      | 
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      |    ⏱️  Runtime: 381.0 seconds
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 0
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 0
+2026-05-21 14:54:20,805 | INFO     | StreamingEngine      |    ❌ Fetch errors: 1
+2026-05-21 14:54:20,809 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 564 rows
+2026-05-21 14:54:20,809 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 341 rows
+2026-05-21 14:54:20,810 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-05-21 14:54:20,810 | INFO     | StreamingEngine      | ============================================================
+2026-05-21 14:54:20,810 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | ============================================================
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | 🚀 Starting Real-Time Financial Market Streaming Engine
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | ============================================================
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | 📋 Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | ⏱️  Price interval: 60s
+2026-06-12 10:57:52,605 | INFO     | StreamingEngine      | ⏱️  OHLC interval: 300s
+2026-06-12 10:57:52,606 | INFO     | StreamingEngine      | 📡 Data source: CoinGecko Public API
+2026-06-12 10:57:52,606 | INFO     | StreamingEngine      | ============================================================
+2026-06-12 10:57:52,683 | INFO     | src.db_manager       | ✅ Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-06-12 10:57:53,081 | INFO     | StreamingEngine      | 🌐 CoinGecko API OK (latency: 0.40s)
+2026-06-12 10:57:53,082 | INFO     | StreamingEngine      | 🕯️  OHLC fetcher started (interval: 300s)
+2026-06-12 10:57:53,082 | INFO     | StreamingEngine      | ── Cycle 1 ──
+2026-06-12 10:57:53,537 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,435.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.72, XRP=$1.14, SOL=$66.90
+2026-06-12 10:57:53,561 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 03:57:53 UTC
+2026-06-12 10:58:03,086 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 10:58:03,139 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-06-12 10:58:03,159 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for BTC
+2026-06-12 10:58:05,134 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-06-12 10:58:05,155 | INFO     | src.db_manager       | 🕯️  Inserted 48 OHLC rows for ETH
+2026-06-12 10:58:53,564 | INFO     | StreamingEngine      | ── Cycle 2 ──
+2026-06-12 10:58:53,862 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,435.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.65, XRP=$1.14, SOL=$66.90
+2026-06-12 10:58:53,867 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 03:58:53 UTC
+2026-06-12 10:59:53,870 | INFO     | StreamingEngine      | ── Cycle 3 ──
+2026-06-12 10:59:54,176 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,435.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.81, XRP=$1.14, SOL=$66.91
+2026-06-12 10:59:54,182 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 03:59:54 UTC
+2026-06-12 11:00:54,186 | INFO     | StreamingEngine      | ── Cycle 4 ──
+2026-06-12 11:00:54,583 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,438.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.87, XRP=$1.14, SOL=$66.92
+2026-06-12 11:00:54,587 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 04:00:54 UTC
+2026-06-12 11:01:54,588 | INFO     | StreamingEngine      | ── Cycle 5 ──
+2026-06-12 11:01:55,000 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,426.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.74, XRP=$1.14, SOL=$66.92
+2026-06-12 11:01:55,007 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 04:01:55 UTC
+2026-06-12 11:02:55,010 | INFO     | StreamingEngine      | ── Cycle 6 ──
+2026-06-12 11:02:55,322 | INFO     | src.api_client       | 💰 Fetched prices for 6 coins: BTC=$63,400.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.83, XRP=$1.14, SOL=$66.90
+2026-06-12 11:02:55,329 | INFO     | src.db_manager       | 📊 Inserted 6 ticker rows at 04:02:55 UTC
+2026-06-12 11:03:05,148 | INFO     | StreamingEngine      | 🕯️  Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 11:03:05,198 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for bitcoin
+2026-06-12 11:03:05,207 | INFO     | src.db_manager       | 🕯️  Inserted 0 OHLC rows for BTC
+2026-06-12 11:03:07,201 | INFO     | src.api_client       | 🕯️  Fetched 48 OHLC candles for ethereum
+2026-06-12 11:03:07,213 | INFO     | src.db_manager       | 🕯️  Inserted 1 OHLC rows for ETH
+2026-06-12 11:03:41,570 | INFO     | StreamingEngine      | 
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      | ============================================================
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      | 🛑 Stopping Streaming Engine...
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      | 📊 Final Statistics:
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      |    ⏱️  Runtime: 348.5 seconds
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      |    📈 Ticker rows inserted: 36
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      |    🕯️  OHLC rows inserted: 97
+2026-06-12 11:03:41,571 | INFO     | StreamingEngine      |    ❌ Fetch errors: 0
+2026-06-12 11:03:41,575 | INFO     | StreamingEngine      |    💾 Total in market_ticker: 600 rows
+2026-06-12 11:03:41,575 | INFO     | StreamingEngine      |    💾 Total in market_ohlc: 438 rows
+2026-06-12 11:03:41,577 | INFO     | src.db_manager       | 🔌 Disconnected from PostgreSQL
+2026-06-12 11:03:41,577 | INFO     | StreamingEngine      | ============================================================
+2026-06-12 11:03:41,577 | INFO     | StreamingEngine      | 👋 Engine stopped. Goodbye!
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [38;5;114m[1m▶[0m[38;5;114m Starting Real-Time Financial Market Streaming Engine
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m Price interval: 60s
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m OHLC interval: 300s
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [38;5;80m[1m⬢[0m[38;5;80m Data source: CoinGecko Public API
+2026-06-12 11:23:44,687 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 11:23:44,788 | INFO     | src.db_manager       | [38;5;114m[1m✦[0m[38;5;114m Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-06-12 11:23:45,223 | INFO     | StreamingEngine      | [38;5;80m[1m⬢[0m[38;5;80m CoinGecko API OK (latency: 0.44s)
+2026-06-12 11:23:45,224 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m OHLC fetcher started (interval: 300s)
+2026-06-12 11:23:45,224 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 1 ──[0m
+2026-06-12 11:23:45,631 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,603.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.96, XRP=$1.14, SOL=$66.94
+2026-06-12 11:23:45,638 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:23:45 UTC
+2026-06-12 11:23:55,227 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 11:23:55,272 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 11:23:55,286 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 11:23:57,282 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 11:23:57,295 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 11:24:45,636 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 2 ──[0m
+2026-06-12 11:24:46,043 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,633.00, ADA=$0.17, DOGE=$0.09, ETH=$1,672.86, XRP=$1.14, SOL=$66.96
+2026-06-12 11:24:46,046 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:24:46 UTC
+2026-06-12 11:25:46,049 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 3 ──[0m
+2026-06-12 11:25:46,461 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,639.00, ADA=$0.17, DOGE=$0.09, ETH=$1,674.16, XRP=$1.15, SOL=$66.96
+2026-06-12 11:25:46,465 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:25:46 UTC
+2026-06-12 11:26:46,467 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 4 ──[0m
+2026-06-12 11:26:46,793 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,642.00, ADA=$0.17, DOGE=$0.09, ETH=$1,674.30, XRP=$1.15, SOL=$66.97
+2026-06-12 11:26:46,796 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:26:46 UTC
+2026-06-12 11:27:46,799 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 5 ──[0m
+2026-06-12 11:27:47,193 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,685.00, ADA=$0.17, DOGE=$0.09, ETH=$1,675.50, XRP=$1.15, SOL=$66.98
+2026-06-12 11:27:47,197 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:27:47 UTC
+2026-06-12 11:28:47,200 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 6 ──[0m
+2026-06-12 11:28:47,610 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,678.00, ADA=$0.17, DOGE=$0.09, ETH=$1,674.94, XRP=$1.15, SOL=$66.99
+2026-06-12 11:28:47,613 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:28:47 UTC
+2026-06-12 11:28:57,285 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 11:28:57,343 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 11:28:57,355 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 11:28:59,353 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 11:28:59,367 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 11:29:47,615 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 7 ──[0m
+2026-06-12 11:29:48,025 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,693.00, ADA=$0.17, DOGE=$0.09, ETH=$1,675.21, XRP=$1.15, SOL=$67.00
+2026-06-12 11:29:48,028 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:29:48 UTC
+2026-06-12 11:30:48,032 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 8 ──[0m
+2026-06-12 11:30:48,444 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,691.00, ADA=$0.17, DOGE=$0.09, ETH=$1,675.11, XRP=$1.15, SOL=$67.01
+2026-06-12 11:30:48,449 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:30:48 UTC
+2026-06-12 11:31:48,452 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 9 ──[0m
+2026-06-12 11:31:48,860 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,699.00, ADA=$0.17, DOGE=$0.09, ETH=$1,675.21, XRP=$1.15, SOL=$67.02
+2026-06-12 11:31:48,864 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:31:48 UTC
+2026-06-12 11:34:02,506 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 10 ──[0m
+2026-06-12 11:50:50,697 | ERROR    | src.api_client       | [38;5;204m[1m✖[0m[38;5;204m Request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-12 11:51:43,678 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,628.00, ADA=$0.17, DOGE=$0.09, ETH=$1,675.94, XRP=$1.15, SOL=$67.01
+2026-06-12 11:51:43,684 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 04:51:43 UTC
+2026-06-12 12:09:56,467 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 12:09:56,656 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 12:09:56,672 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 12:09:58,535 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 12:09:58,551 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 2 OHLC rows for ETH
+2026-06-12 12:10:03,073 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 11 ──[0m
+2026-06-12 12:10:03,440 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,506.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.34, XRP=$1.14, SOL=$66.84
+2026-06-12 12:10:03,444 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:10:03 UTC
+2026-06-12 12:44:41,330 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 12 ──[0m
+2026-06-12 12:44:51,354 | ERROR    | src.api_client       | [38;5;204m[1m✖[0m[38;5;204m Request failed: HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=10)
+2026-06-12 12:45:53,090 | ERROR    | src.api_client       | [38;5;204m[1m✖[0m[38;5;204m Request failed: HTTPSConnectionPool(host='api.coingecko.com', port=443): Max retries exceeded with url: /api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana%2Cripple%2Ccardano%2Cdogecoin&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true (Caused by NameResolutionError("HTTPSConnection(host='api.coingecko.com', port=443): Failed to resolve 'api.coingecko.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-12 12:47:48,872 | ERROR    | src.api_client       | [38;5;204m[1m✖[0m[38;5;204m Request failed: HTTPSConnectionPool(host='api.coingecko.com', port=443): Max retries exceeded with url: /api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana%2Cripple%2Ccardano%2Cdogecoin&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true (Caused by NameResolutionError("HTTPSConnection(host='api.coingecko.com', port=443): Failed to resolve 'api.coingecko.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-12 12:47:48,873 | ERROR    | src.api_client       | [38;5;204m[1m✖[0m[38;5;204m All 3 attempts failed for: https://api.coingecko.com/api/v3/simple/price
+2026-06-12 12:47:48,873 | WARNING  | StreamingEngine      | [38;5;221m[1m▲[0m[38;5;221m No data fetched in cycle 12
+2026-06-12 12:49:25,884 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 13 ──[0m
+2026-06-12 12:49:26,387 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,287.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.34, XRP=$1.14, SOL=$66.64
+2026-06-12 12:49:26,390 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:49:26 UTC
+2026-06-12 12:52:19,725 | INFO     | StreamingEngine      | 
+2026-06-12 12:52:19,726 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      | [38;5;204m[1m■[0m[38;5;204m Stopping Streaming Engine...
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      | [38;5;183m[1m▊[0m[38;5;183m Final Statistics:
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      |    [2m›[0m Runtime: 5314.5 seconds
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      |    [2m›[0m Ticker rows inserted: 72
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      |    [2m›[0m OHLC rows inserted: 4
+2026-06-12 12:52:19,727 | INFO     | StreamingEngine      |    [2m›[0m Fetch errors: 1
+2026-06-12 12:52:19,734 | INFO     | StreamingEngine      |    [38;5;75m[1m⬡[0m[38;5;75m Total in market_ticker: 672 rows
+2026-06-12 12:52:19,734 | INFO     | StreamingEngine      |    [38;5;75m[1m⬡[0m[38;5;75m Total in market_ohlc: 442 rows
+2026-06-12 12:52:19,735 | INFO     | src.db_manager       | [2m◌[0m Disconnected from PostgreSQL
+2026-06-12 12:52:19,735 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 12:52:19,735 | INFO     | StreamingEngine      | [2m◌[0m Engine stopped. Goodbye!
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [38;5;114m[1m▶[0m[38;5;114m Starting Real-Time Financial Market Streaming Engine
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m Symbols: bitcoin, ethereum, solana, ripple, cardano, dogecoin
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m Price interval: 60s
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [38;5;75m[1m●[0m[38;5;75m OHLC interval: 300s
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [38;5;80m[1m⬢[0m[38;5;80m Data source: CoinGecko Public API
+2026-06-12 12:54:16,520 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 12:54:16,600 | INFO     | src.db_manager       | [38;5;114m[1m✦[0m[38;5;114m Connected to PostgreSQL: postgres@localhost:5432/portofolio_db
+2026-06-12 12:54:17,031 | INFO     | StreamingEngine      | [38;5;80m[1m⬢[0m[38;5;80m CoinGecko API OK (latency: 0.43s)
+2026-06-12 12:54:17,032 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m OHLC fetcher started (interval: 300s)
+2026-06-12 12:54:17,032 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 1 ──[0m
+2026-06-12 12:54:17,440 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,251.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.83, XRP=$1.14, SOL=$66.63
+2026-06-12 12:54:17,447 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:54:17 UTC
+2026-06-12 12:54:27,036 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 12:54:27,090 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 12:54:27,106 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 2 OHLC rows for BTC
+2026-06-12 12:54:29,093 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 12:54:29,104 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 12:55:17,449 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 2 ──[0m
+2026-06-12 12:55:17,777 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,269.00, ADA=$0.17, DOGE=$0.09, ETH=$1,661.98, XRP=$1.14, SOL=$66.63
+2026-06-12 12:55:17,780 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:55:17 UTC
+2026-06-12 12:56:17,781 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 3 ──[0m
+2026-06-12 12:56:18,168 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,276.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.71, XRP=$1.14, SOL=$66.64
+2026-06-12 12:56:18,172 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:56:18 UTC
+2026-06-12 12:57:18,174 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 4 ──[0m
+2026-06-12 12:57:18,472 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,283.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.67, XRP=$1.14, SOL=$66.64
+2026-06-12 12:57:18,475 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:57:18 UTC
+2026-06-12 12:58:18,473 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 5 ──[0m
+2026-06-12 12:58:18,801 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,292.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.78, XRP=$1.14, SOL=$66.65
+2026-06-12 12:58:18,805 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:58:18 UTC
+2026-06-12 12:59:18,807 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 6 ──[0m
+2026-06-12 12:59:19,119 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,301.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.82, XRP=$1.14, SOL=$66.67
+2026-06-12 12:59:19,123 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 05:59:19 UTC
+2026-06-12 12:59:29,086 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 12:59:29,147 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 12:59:29,159 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 12:59:31,147 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 12:59:31,159 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:00:19,125 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 7 ──[0m
+2026-06-12 13:00:19,527 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,283.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.40, XRP=$1.14, SOL=$66.67
+2026-06-12 13:00:19,532 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:00:19 UTC
+2026-06-12 13:01:19,535 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 8 ──[0m
+2026-06-12 13:01:19,943 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,275.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.42, XRP=$1.14, SOL=$66.67
+2026-06-12 13:01:19,962 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:01:19 UTC
+2026-06-12 13:02:20,049 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 9 ──[0m
+2026-06-12 13:02:20,441 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,275.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.58, XRP=$1.14, SOL=$66.67
+2026-06-12 13:02:20,443 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:02:20 UTC
+2026-06-12 13:03:20,444 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 10 ──[0m
+2026-06-12 13:03:20,747 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,279.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.73, XRP=$1.14, SOL=$66.66
+2026-06-12 13:03:20,751 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:03:20 UTC
+2026-06-12 13:04:20,756 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 11 ──[0m
+2026-06-12 13:04:21,177 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,292.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.80, XRP=$1.14, SOL=$66.66
+2026-06-12 13:04:21,183 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:04:21 UTC
+2026-06-12 13:04:31,238 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:04:31,290 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:04:31,305 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:04:33,292 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:04:33,306 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 13:05:21,188 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 12 ──[0m
+2026-06-12 13:05:21,601 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,299.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.16, XRP=$1.14, SOL=$66.67
+2026-06-12 13:05:21,604 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:05:21 UTC
+2026-06-12 13:06:21,609 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 13 ──[0m
+2026-06-12 13:06:22,019 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,304.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.31, XRP=$1.14, SOL=$66.67
+2026-06-12 13:06:22,023 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:06:22 UTC
+2026-06-12 13:07:22,028 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 14 ──[0m
+2026-06-12 13:07:22,435 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,310.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.68, XRP=$1.14, SOL=$66.68
+2026-06-12 13:07:22,438 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:07:22 UTC
+2026-06-12 13:08:22,440 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 15 ──[0m
+2026-06-12 13:08:22,853 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,302.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.84, XRP=$1.14, SOL=$66.68
+2026-06-12 13:08:22,855 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:08:22 UTC
+2026-06-12 13:09:22,860 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 16 ──[0m
+2026-06-12 13:09:23,273 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,288.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.32, XRP=$1.14, SOL=$66.67
+2026-06-12 13:09:23,278 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:09:23 UTC
+2026-06-12 13:09:33,310 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:09:33,362 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:09:33,382 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:09:35,368 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:09:35,378 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:10:23,284 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 17 ──[0m
+2026-06-12 13:10:23,685 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,273.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.89, XRP=$1.14, SOL=$66.67
+2026-06-12 13:10:23,689 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:10:23 UTC
+2026-06-12 13:11:23,694 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 18 ──[0m
+2026-06-12 13:11:24,110 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,250.00, ADA=$0.17, DOGE=$0.09, ETH=$1,661.83, XRP=$1.14, SOL=$66.64
+2026-06-12 13:11:24,115 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:11:24 UTC
+2026-06-12 13:12:24,119 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 19 ──[0m
+2026-06-12 13:12:24,529 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,251.00, ADA=$0.17, DOGE=$0.09, ETH=$1,661.93, XRP=$1.14, SOL=$66.62
+2026-06-12 13:12:24,532 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:12:24 UTC
+2026-06-12 13:13:24,536 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 20 ──[0m
+2026-06-12 13:13:24,946 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,237.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.87, XRP=$1.14, SOL=$66.60
+2026-06-12 13:13:24,949 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:13:24 UTC
+2026-06-12 13:14:24,953 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 21 ──[0m
+2026-06-12 13:14:25,368 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,217.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.65, XRP=$1.14, SOL=$66.57
+2026-06-12 13:14:25,372 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:14:25 UTC
+2026-06-12 13:14:35,382 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:14:35,429 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:14:35,449 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 13:14:37,441 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:14:37,459 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:15:25,378 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 22 ──[0m
+2026-06-12 13:15:25,791 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,209.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.53, XRP=$1.14, SOL=$66.57
+2026-06-12 13:15:25,796 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:15:25 UTC
+2026-06-12 13:16:25,800 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 23 ──[0m
+2026-06-12 13:16:26,204 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,194.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.27, XRP=$1.14, SOL=$66.56
+2026-06-12 13:16:26,209 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:16:26 UTC
+2026-06-12 13:17:26,216 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 24 ──[0m
+2026-06-12 13:17:26,547 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,137.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.76, XRP=$1.14, SOL=$66.55
+2026-06-12 13:17:26,551 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:17:26 UTC
+2026-06-12 13:18:26,601 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 25 ──[0m
+2026-06-12 13:18:26,956 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,089.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.13, XRP=$1.14, SOL=$66.52
+2026-06-12 13:18:26,960 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:18:26 UTC
+2026-06-12 13:19:26,967 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 26 ──[0m
+2026-06-12 13:19:27,278 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,098.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.20, XRP=$1.14, SOL=$66.51
+2026-06-12 13:19:27,281 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:19:27 UTC
+2026-06-12 13:19:37,515 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:19:37,573 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:19:37,587 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:19:39,587 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:19:39,599 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:20:27,284 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 27 ──[0m
+2026-06-12 13:20:27,630 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,089.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.24, XRP=$1.14, SOL=$66.50
+2026-06-12 13:20:27,634 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:20:27 UTC
+2026-06-12 13:21:27,642 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 28 ──[0m
+2026-06-12 13:21:27,947 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,077.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.15, XRP=$1.14, SOL=$66.47
+2026-06-12 13:21:27,953 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:21:27 UTC
+2026-06-12 13:22:27,955 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 29 ──[0m
+2026-06-12 13:22:28,369 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,068.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.84, XRP=$1.14, SOL=$66.45
+2026-06-12 13:22:28,373 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:22:28 UTC
+2026-06-12 13:23:28,380 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 30 ──[0m
+2026-06-12 13:23:28,800 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,068.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.44, XRP=$1.13, SOL=$66.44
+2026-06-12 13:23:28,805 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:23:28 UTC
+2026-06-12 13:24:28,812 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 31 ──[0m
+2026-06-12 13:24:29,212 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,077.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.58, XRP=$1.13, SOL=$66.42
+2026-06-12 13:24:29,218 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:24:29 UTC
+2026-06-12 13:24:39,606 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:24:39,656 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:24:39,669 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:24:41,663 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:24:41,677 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:25:29,225 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 32 ──[0m
+2026-06-12 13:25:29,535 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,091.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.96, XRP=$1.13, SOL=$66.43
+2026-06-12 13:25:29,540 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:25:29 UTC
+2026-06-12 13:26:29,547 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 33 ──[0m
+2026-06-12 13:26:29,951 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,102.00, ADA=$0.17, DOGE=$0.09, ETH=$1,659.06, XRP=$1.13, SOL=$66.44
+2026-06-12 13:26:29,956 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:26:29 UTC
+2026-06-12 13:27:29,960 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 34 ──[0m
+2026-06-12 13:27:30,367 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,091.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.87, XRP=$1.13, SOL=$66.44
+2026-06-12 13:27:30,372 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:27:30 UTC
+2026-06-12 13:28:30,378 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 35 ──[0m
+2026-06-12 13:28:30,705 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,098.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.67, XRP=$1.13, SOL=$66.44
+2026-06-12 13:28:30,712 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:28:30 UTC
+2026-06-12 13:29:30,714 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 36 ──[0m
+2026-06-12 13:29:31,114 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,087.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.54, XRP=$1.13, SOL=$66.42
+2026-06-12 13:29:31,119 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:29:31 UTC
+2026-06-12 13:29:41,688 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:29:41,779 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:29:41,794 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:29:43,868 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:29:43,883 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:30:31,124 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 37 ──[0m
+2026-06-12 13:30:31,530 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,076.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.27, XRP=$1.13, SOL=$66.42
+2026-06-12 13:30:31,534 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:30:31 UTC
+2026-06-12 13:31:31,541 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 38 ──[0m
+2026-06-12 13:31:31,946 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,053.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.57, XRP=$1.13, SOL=$66.33
+2026-06-12 13:31:31,950 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:31:31 UTC
+2026-06-12 13:32:31,954 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 39 ──[0m
+2026-06-12 13:32:32,368 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,022.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.07, XRP=$1.13, SOL=$66.28
+2026-06-12 13:32:32,372 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:32:32 UTC
+2026-06-12 13:33:32,368 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 40 ──[0m
+2026-06-12 13:33:32,782 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,973.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.90, XRP=$1.13, SOL=$66.26
+2026-06-12 13:33:32,788 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:33:32 UTC
+2026-06-12 13:34:32,785 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 41 ──[0m
+2026-06-12 13:34:33,099 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,913.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.30, XRP=$1.13, SOL=$66.25
+2026-06-12 13:34:33,101 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:34:33 UTC
+2026-06-12 13:34:43,876 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:34:43,944 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:34:43,961 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:34:45,940 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:34:45,953 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 13:35:33,104 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 42 ──[0m
+2026-06-12 13:35:33,499 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,870.00, ADA=$0.17, DOGE=$0.09, ETH=$1,653.88, XRP=$1.13, SOL=$66.19
+2026-06-12 13:35:33,502 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:35:33 UTC
+2026-06-12 13:36:33,508 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 43 ──[0m
+2026-06-12 13:36:33,846 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,873.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.83, XRP=$1.13, SOL=$66.14
+2026-06-12 13:36:33,851 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:36:33 UTC
+2026-06-12 13:37:33,857 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 44 ──[0m
+2026-06-12 13:37:34,265 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,865.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.29, XRP=$1.13, SOL=$66.10
+2026-06-12 13:37:34,268 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:37:34 UTC
+2026-06-12 13:38:34,273 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 45 ──[0m
+2026-06-12 13:38:34,669 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,829.00, ADA=$0.17, DOGE=$0.09, ETH=$1,651.41, XRP=$1.13, SOL=$66.08
+2026-06-12 13:38:34,673 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:38:34 UTC
+2026-06-12 13:39:34,675 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 46 ──[0m
+2026-06-12 13:39:35,193 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,800.00, ADA=$0.17, DOGE=$0.09, ETH=$1,650.65, XRP=$1.13, SOL=$65.95
+2026-06-12 13:39:35,196 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:39:35 UTC
+2026-06-12 13:39:45,958 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:39:46,019 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:39:46,036 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:39:48,010 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:39:48,021 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:40:35,202 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 47 ──[0m
+2026-06-12 13:40:35,615 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,841.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.40, XRP=$1.13, SOL=$65.93
+2026-06-12 13:40:35,617 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:40:35 UTC
+2026-06-12 13:41:35,623 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 48 ──[0m
+2026-06-12 13:41:36,036 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,860.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.57, XRP=$1.13, SOL=$65.94
+2026-06-12 13:41:36,040 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:41:36 UTC
+2026-06-12 13:42:36,046 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 49 ──[0m
+2026-06-12 13:42:36,379 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,862.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.85, XRP=$1.13, SOL=$65.95
+2026-06-12 13:42:36,383 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:42:36 UTC
+2026-06-12 13:43:36,389 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 50 ──[0m
+2026-06-12 13:43:36,770 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,858.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.60, XRP=$1.13, SOL=$65.95
+2026-06-12 13:43:36,775 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:43:36 UTC
+2026-06-12 13:44:36,781 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 51 ──[0m
+2026-06-12 13:44:37,191 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,854.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.61, XRP=$1.13, SOL=$65.94
+2026-06-12 13:44:37,197 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:44:37 UTC
+2026-06-12 13:44:48,030 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:44:48,083 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:44:48,099 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 13:44:50,100 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:44:50,113 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:45:37,198 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 52 ──[0m
+2026-06-12 13:45:37,609 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,850.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.67, XRP=$1.13, SOL=$65.94
+2026-06-12 13:45:37,613 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:45:37 UTC
+2026-06-12 13:46:37,619 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 53 ──[0m
+2026-06-12 13:46:37,944 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,869.00, ADA=$0.17, DOGE=$0.09, ETH=$1,652.99, XRP=$1.13, SOL=$65.96
+2026-06-12 13:46:37,949 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:46:37 UTC
+2026-06-12 13:47:37,956 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 54 ──[0m
+2026-06-12 13:47:38,351 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,898.00, ADA=$0.17, DOGE=$0.09, ETH=$1,653.79, XRP=$1.13, SOL=$65.98
+2026-06-12 13:47:38,357 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:47:38 UTC
+2026-06-12 13:48:38,360 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 55 ──[0m
+2026-06-12 13:48:38,692 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,907.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.63, XRP=$1.13, SOL=$65.99
+2026-06-12 13:48:38,696 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:48:38 UTC
+2026-06-12 13:49:38,677 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 56 ──[0m
+2026-06-12 13:49:39,007 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,912.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.94, XRP=$1.13, SOL=$66.01
+2026-06-12 13:49:39,012 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:49:39 UTC
+2026-06-12 13:49:50,093 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:49:50,159 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:49:50,178 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:49:52,157 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:49:52,171 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:50:39,001 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 57 ──[0m
+2026-06-12 13:50:39,312 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,904.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.52, XRP=$1.13, SOL=$66.02
+2026-06-12 13:50:39,316 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:50:39 UTC
+2026-06-12 13:51:39,318 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 58 ──[0m
+2026-06-12 13:51:39,631 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,891.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.42, XRP=$1.13, SOL=$66.02
+2026-06-12 13:51:39,636 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:51:39 UTC
+2026-06-12 13:54:54,733 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 59 ──[0m
+2026-06-12 13:54:55,065 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,881.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.85, XRP=$1.13, SOL=$66.05
+2026-06-12 13:54:55,071 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:54:55 UTC
+2026-06-12 13:55:55,071 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 60 ──[0m
+2026-06-12 13:55:55,480 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,881.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.67, XRP=$1.13, SOL=$66.05
+2026-06-12 13:55:55,485 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:55:55 UTC
+2026-06-12 13:56:55,490 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 61 ──[0m
+2026-06-12 13:56:55,898 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,869.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.35, XRP=$1.13, SOL=$66.05
+2026-06-12 13:56:55,902 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:56:55 UTC
+2026-06-12 13:57:07,257 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 13:57:07,309 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 13:57:07,323 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 13:57:09,316 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 13:57:09,329 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 13:57:55,905 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 62 ──[0m
+2026-06-12 13:57:56,215 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,889.00, ADA=$0.17, DOGE=$0.09, ETH=$1,654.79, XRP=$1.13, SOL=$66.05
+2026-06-12 13:57:56,220 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:57:56 UTC
+2026-06-12 13:58:56,225 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 63 ──[0m
+2026-06-12 13:58:56,638 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,909.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.88, XRP=$1.13, SOL=$66.06
+2026-06-12 13:58:56,643 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:58:56 UTC
+2026-06-12 13:59:56,646 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 64 ──[0m
+2026-06-12 13:59:57,054 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,906.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.01, XRP=$1.13, SOL=$66.06
+2026-06-12 13:59:57,058 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 06:59:57 UTC
+2026-06-12 14:00:57,063 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 65 ──[0m
+2026-06-12 14:00:57,473 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,912.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.48, XRP=$1.13, SOL=$66.06
+2026-06-12 14:00:57,478 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:00:57 UTC
+2026-06-12 14:01:57,483 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 66 ──[0m
+2026-06-12 14:01:57,810 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,951.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.55, XRP=$1.13, SOL=$66.07
+2026-06-12 14:01:57,816 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:01:57 UTC
+2026-06-12 14:02:09,333 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:02:09,403 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:02:09,420 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:02:11,386 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:02:11,402 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:02:57,822 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 67 ──[0m
+2026-06-12 14:02:58,207 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,996.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.65, XRP=$1.13, SOL=$66.11
+2026-06-12 14:02:58,210 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:02:58 UTC
+2026-06-12 14:03:58,214 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 68 ──[0m
+2026-06-12 14:03:58,630 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,998.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.54, XRP=$1.13, SOL=$66.12
+2026-06-12 14:03:58,635 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:03:58 UTC
+2026-06-12 14:04:58,641 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 69 ──[0m
+2026-06-12 14:04:59,048 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,999.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.46, XRP=$1.13, SOL=$66.13
+2026-06-12 14:04:59,054 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:04:59 UTC
+2026-06-12 14:05:59,056 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 70 ──[0m
+2026-06-12 14:05:59,379 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,012.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.05, XRP=$1.13, SOL=$66.15
+2026-06-12 14:05:59,385 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:05:59 UTC
+2026-06-12 14:06:59,391 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 71 ──[0m
+2026-06-12 14:06:59,785 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,018.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.49, XRP=$1.13, SOL=$66.18
+2026-06-12 14:06:59,790 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:06:59 UTC
+2026-06-12 14:07:11,405 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:07:11,454 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:07:11,469 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:07:13,476 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:07:13,488 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 14:07:59,793 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 72 ──[0m
+2026-06-12 14:08:00,207 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,018.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.64, XRP=$1.13, SOL=$66.19
+2026-06-12 14:08:00,212 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:08:00 UTC
+2026-06-12 14:09:00,218 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 73 ──[0m
+2026-06-12 14:09:00,620 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,996.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.18, XRP=$1.13, SOL=$66.19
+2026-06-12 14:09:00,622 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:09:00 UTC
+2026-06-12 14:10:00,627 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 74 ──[0m
+2026-06-12 14:10:00,941 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,011.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.74, XRP=$1.13, SOL=$66.20
+2026-06-12 14:10:00,946 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:10:00 UTC
+2026-06-12 14:11:00,916 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 75 ──[0m
+2026-06-12 14:11:01,206 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,004.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.58, XRP=$1.13, SOL=$66.21
+2026-06-12 14:11:01,209 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:11:01 UTC
+2026-06-12 14:12:01,209 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 76 ──[0m
+2026-06-12 14:12:01,534 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,010.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.54, XRP=$1.13, SOL=$66.21
+2026-06-12 14:12:01,539 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:12:01 UTC
+2026-06-12 14:12:13,449 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:12:13,507 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:12:13,521 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:12:15,511 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:12:15,530 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:13:01,544 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 77 ──[0m
+2026-06-12 14:13:01,952 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,981.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.62, XRP=$1.13, SOL=$66.21
+2026-06-12 14:13:01,956 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:13:01 UTC
+2026-06-12 14:14:01,961 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 78 ──[0m
+2026-06-12 14:14:02,475 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,985.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.54, XRP=$1.13, SOL=$66.20
+2026-06-12 14:14:02,482 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:14:02 UTC
+2026-06-12 14:15:02,487 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 79 ──[0m
+2026-06-12 14:15:02,791 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,967.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.40, XRP=$1.13, SOL=$66.19
+2026-06-12 14:15:02,798 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:15:02 UTC
+2026-06-12 14:16:02,802 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 80 ──[0m
+2026-06-12 14:16:03,225 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,950.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.93, XRP=$1.13, SOL=$66.18
+2026-06-12 14:16:03,227 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:16:03 UTC
+2026-06-12 14:17:03,232 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 81 ──[0m
+2026-06-12 14:17:03,627 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,936.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.89, XRP=$1.13, SOL=$66.17
+2026-06-12 14:17:03,632 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:17:03 UTC
+2026-06-12 14:17:15,531 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:17:15,594 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:17:15,613 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 14:17:17,798 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:17:17,811 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:18:03,636 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 82 ──[0m
+2026-06-12 14:18:03,941 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,937.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.69, XRP=$1.13, SOL=$66.17
+2026-06-12 14:18:03,945 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:18:03 UTC
+2026-06-12 14:19:03,950 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 83 ──[0m
+2026-06-12 14:19:04,258 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,948.00, ADA=$0.17, DOGE=$0.09, ETH=$1,655.73, XRP=$1.13, SOL=$66.16
+2026-06-12 14:19:04,262 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:19:04 UTC
+2026-06-12 14:20:04,261 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 84 ──[0m
+2026-06-12 14:20:04,574 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,976.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.18, XRP=$1.13, SOL=$66.17
+2026-06-12 14:20:04,577 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:20:04 UTC
+2026-06-12 14:21:04,581 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 85 ──[0m
+2026-06-12 14:21:04,890 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,968.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.58, XRP=$1.13, SOL=$66.17
+2026-06-12 14:21:04,895 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:21:04 UTC
+2026-06-12 14:22:04,896 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 86 ──[0m
+2026-06-12 14:22:05,187 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,988.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.95, XRP=$1.13, SOL=$66.21
+2026-06-12 14:22:05,190 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:22:05 UTC
+2026-06-12 14:22:17,812 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:22:17,883 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:22:17,895 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:22:19,879 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:22:19,896 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:23:05,196 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 87 ──[0m
+2026-06-12 14:23:05,524 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,951.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.40, XRP=$1.13, SOL=$66.21
+2026-06-12 14:23:05,530 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:23:05 UTC
+2026-06-12 14:24:05,532 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 88 ──[0m
+2026-06-12 14:24:05,836 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,937.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.21, XRP=$1.13, SOL=$66.21
+2026-06-12 14:24:05,841 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:24:05 UTC
+2026-06-12 14:25:05,842 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 89 ──[0m
+2026-06-12 14:25:06,258 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,957.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.84, XRP=$1.13, SOL=$66.21
+2026-06-12 14:25:06,263 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:25:06 UTC
+2026-06-12 14:26:06,267 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 90 ──[0m
+2026-06-12 14:26:06,547 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,964.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.11, XRP=$1.13, SOL=$66.22
+2026-06-12 14:26:06,550 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:26:06 UTC
+2026-06-12 14:27:06,533 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 91 ──[0m
+2026-06-12 14:27:06,822 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,955.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.79, XRP=$1.13, SOL=$66.22
+2026-06-12 14:27:06,827 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:27:06 UTC
+2026-06-12 14:27:19,870 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:27:19,928 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:27:19,940 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:27:21,928 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:27:21,941 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:28:06,830 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 92 ──[0m
+2026-06-12 14:28:07,182 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,957.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.52, XRP=$1.13, SOL=$66.21
+2026-06-12 14:28:07,189 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:28:07 UTC
+2026-06-12 14:29:07,193 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 93 ──[0m
+2026-06-12 14:29:07,498 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,953.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.74, XRP=$1.13, SOL=$66.20
+2026-06-12 14:29:07,502 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:29:07 UTC
+2026-06-12 14:30:07,507 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 94 ──[0m
+2026-06-12 14:30:07,812 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,961.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.08, XRP=$1.13, SOL=$66.21
+2026-06-12 14:30:07,816 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:30:07 UTC
+2026-06-12 14:31:07,820 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 95 ──[0m
+2026-06-12 14:31:08,230 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,957.00, ADA=$0.17, DOGE=$0.09, ETH=$1,656.92, XRP=$1.13, SOL=$66.21
+2026-06-12 14:31:08,235 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:31:08 UTC
+2026-06-12 14:32:08,239 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 96 ──[0m
+2026-06-12 14:32:08,546 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,963.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.31, XRP=$1.13, SOL=$66.21
+2026-06-12 14:32:08,553 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:32:08 UTC
+2026-06-12 14:32:21,937 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:32:22,075 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:32:22,090 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:32:24,210 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:32:24,226 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 14:33:08,557 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 97 ──[0m
+2026-06-12 14:33:08,963 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,969.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.62, XRP=$1.13, SOL=$66.21
+2026-06-12 14:33:08,968 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:33:08 UTC
+2026-06-12 14:34:08,973 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 98 ──[0m
+2026-06-12 14:34:09,392 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,954.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.35, XRP=$1.13, SOL=$66.20
+2026-06-12 14:34:09,397 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:34:09 UTC
+2026-06-12 14:35:09,402 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 99 ──[0m
+2026-06-12 14:35:09,801 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,961.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.68, XRP=$1.13, SOL=$66.20
+2026-06-12 14:35:09,806 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:35:09 UTC
+2026-06-12 14:36:09,809 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 100 ──[0m
+2026-06-12 14:36:10,119 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,945.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.52, XRP=$1.13, SOL=$66.18
+2026-06-12 14:36:10,124 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:36:10 UTC
+2026-06-12 14:37:10,125 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 101 ──[0m
+2026-06-12 14:37:10,539 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,949.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.75, XRP=$1.13, SOL=$66.19
+2026-06-12 14:37:10,543 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:37:10 UTC
+2026-06-12 14:37:24,225 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:37:24,283 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:37:24,303 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:37:26,329 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:37:26,348 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:38:10,547 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 102 ──[0m
+2026-06-12 14:38:10,952 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,939.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.77, XRP=$1.13, SOL=$66.19
+2026-06-12 14:38:10,957 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:38:10 UTC
+2026-06-12 14:39:10,961 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 103 ──[0m
+2026-06-12 14:39:11,259 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,922.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.94, XRP=$1.13, SOL=$66.19
+2026-06-12 14:39:11,264 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:39:11 UTC
+2026-06-12 14:40:11,267 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 104 ──[0m
+2026-06-12 14:40:11,550 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,941.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.35, XRP=$1.13, SOL=$66.19
+2026-06-12 14:40:11,556 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:40:11 UTC
+2026-06-12 14:41:11,558 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 105 ──[0m
+2026-06-12 14:41:11,899 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,978.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.56, XRP=$1.13, SOL=$66.20
+2026-06-12 14:41:11,905 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:41:11 UTC
+2026-06-12 14:42:11,909 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 106 ──[0m
+2026-06-12 14:42:12,203 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,981.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.38, XRP=$1.13, SOL=$66.20
+2026-06-12 14:42:12,206 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:42:12 UTC
+2026-06-12 14:42:26,344 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:42:26,395 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:42:26,413 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:42:28,393 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:42:28,405 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:43:12,168 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 107 ──[0m
+2026-06-12 14:43:12,490 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,995.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.55, XRP=$1.13, SOL=$66.20
+2026-06-12 14:43:12,496 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:43:12 UTC
+2026-06-12 14:44:12,495 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 108 ──[0m
+2026-06-12 14:44:12,803 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,995.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.43, XRP=$1.13, SOL=$66.20
+2026-06-12 14:44:12,807 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:44:12 UTC
+2026-06-12 14:45:12,809 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 109 ──[0m
+2026-06-12 14:45:13,111 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,989.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.53, XRP=$1.13, SOL=$66.20
+2026-06-12 14:45:13,116 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:45:13 UTC
+2026-06-12 14:46:13,119 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 110 ──[0m
+2026-06-12 14:46:13,433 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,984.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.47, XRP=$1.13, SOL=$66.20
+2026-06-12 14:46:13,437 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:46:13 UTC
+2026-06-12 14:47:13,440 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 111 ──[0m
+2026-06-12 14:47:13,749 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,978.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.21, XRP=$1.13, SOL=$66.19
+2026-06-12 14:47:13,753 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:47:13 UTC
+2026-06-12 14:47:28,358 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:47:28,404 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:47:28,419 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 14:47:30,626 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:47:30,639 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:48:13,753 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 112 ──[0m
+2026-06-12 14:48:14,066 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,961.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.10, XRP=$1.13, SOL=$66.18
+2026-06-12 14:48:14,071 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:48:14 UTC
+2026-06-12 14:49:14,074 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 113 ──[0m
+2026-06-12 14:49:14,388 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,960.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.06, XRP=$1.13, SOL=$66.18
+2026-06-12 14:49:14,391 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:49:14 UTC
+2026-06-12 14:50:14,395 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 114 ──[0m
+2026-06-12 14:50:14,683 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,969.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.13, XRP=$1.13, SOL=$66.16
+2026-06-12 14:50:14,688 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:50:14 UTC
+2026-06-12 14:51:14,688 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 115 ──[0m
+2026-06-12 14:51:15,011 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,959.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.91, XRP=$1.13, SOL=$66.15
+2026-06-12 14:51:15,016 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:51:15 UTC
+2026-06-12 14:52:15,019 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 116 ──[0m
+2026-06-12 14:52:15,326 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,954.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.88, XRP=$1.13, SOL=$66.14
+2026-06-12 14:52:15,330 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:52:15 UTC
+2026-06-12 14:52:30,636 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:52:30,692 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:52:30,706 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:52:32,697 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:52:32,710 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:53:15,331 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 117 ──[0m
+2026-06-12 14:53:15,642 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,945.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.85, XRP=$1.13, SOL=$66.13
+2026-06-12 14:53:15,645 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:53:15 UTC
+2026-06-12 14:54:15,650 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 118 ──[0m
+2026-06-12 14:54:15,946 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,948.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.83, XRP=$1.13, SOL=$66.13
+2026-06-12 14:54:15,951 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:54:15 UTC
+2026-06-12 14:55:15,958 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 119 ──[0m
+2026-06-12 14:55:16,276 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,942.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.71, XRP=$1.13, SOL=$66.14
+2026-06-12 14:55:16,281 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:55:16 UTC
+2026-06-12 14:56:16,285 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 120 ──[0m
+2026-06-12 14:56:16,590 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,946.00, ADA=$0.17, DOGE=$0.09, ETH=$1,657.95, XRP=$1.13, SOL=$66.15
+2026-06-12 14:56:16,594 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:56:16 UTC
+2026-06-12 14:57:16,598 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 121 ──[0m
+2026-06-12 14:57:16,904 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$62,976.00, ADA=$0.17, DOGE=$0.09, ETH=$1,658.77, XRP=$1.13, SOL=$66.16
+2026-06-12 14:57:16,910 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:57:16 UTC
+2026-06-12 14:57:32,707 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 14:57:32,760 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 14:57:32,780 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 14:57:34,764 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 14:57:34,777 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 14:58:16,909 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 122 ──[0m
+2026-06-12 14:58:17,196 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,025.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.05, XRP=$1.13, SOL=$66.19
+2026-06-12 14:58:17,200 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:58:17 UTC
+2026-06-12 14:59:17,192 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 123 ──[0m
+2026-06-12 14:59:17,523 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,020.00, ADA=$0.17, DOGE=$0.09, ETH=$1,659.74, XRP=$1.13, SOL=$66.20
+2026-06-12 14:59:17,530 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 07:59:17 UTC
+2026-06-12 15:00:17,528 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 124 ──[0m
+2026-06-12 15:00:17,938 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,020.00, ADA=$0.17, DOGE=$0.09, ETH=$1,659.63, XRP=$1.13, SOL=$66.21
+2026-06-12 15:00:17,943 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:00:17 UTC
+2026-06-12 15:01:17,948 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 125 ──[0m
+2026-06-12 15:01:18,247 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,017.00, ADA=$0.17, DOGE=$0.09, ETH=$1,659.79, XRP=$1.13, SOL=$66.21
+2026-06-12 15:01:18,252 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:01:18 UTC
+2026-06-12 15:02:18,256 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 126 ──[0m
+2026-06-12 15:02:18,676 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,037.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.03, XRP=$1.13, SOL=$66.23
+2026-06-12 15:02:18,681 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:02:18 UTC
+2026-06-12 15:02:34,757 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:02:34,813 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:02:34,824 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:02:37,032 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:02:37,048 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 15:03:18,685 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 127 ──[0m
+2026-06-12 15:03:19,088 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,058.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.77, XRP=$1.13, SOL=$66.24
+2026-06-12 15:03:19,092 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:03:19 UTC
+2026-06-12 15:04:19,093 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 128 ──[0m
+2026-06-12 15:04:19,403 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,071.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.96, XRP=$1.13, SOL=$66.26
+2026-06-12 15:04:19,409 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:04:19 UTC
+2026-06-12 15:05:19,408 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 129 ──[0m
+2026-06-12 15:05:19,718 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,069.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.67, XRP=$1.13, SOL=$66.31
+2026-06-12 15:05:19,722 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:05:19 UTC
+2026-06-12 15:06:19,726 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 130 ──[0m
+2026-06-12 15:06:20,036 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,064.00, ADA=$0.17, DOGE=$0.09, ETH=$1,660.48, XRP=$1.13, SOL=$66.31
+2026-06-12 15:06:20,041 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:06:20 UTC
+2026-06-12 15:07:20,043 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 131 ──[0m
+2026-06-12 15:07:20,350 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,113.00, ADA=$0.17, DOGE=$0.09, ETH=$1,661.33, XRP=$1.13, SOL=$66.35
+2026-06-12 15:07:20,353 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:07:20 UTC
+2026-06-12 15:07:37,043 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:07:37,101 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:07:37,120 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:07:39,103 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:07:39,121 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:08:20,356 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 132 ──[0m
+2026-06-12 15:08:20,635 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,143.00, ADA=$0.17, DOGE=$0.09, ETH=$1,662.42, XRP=$1.13, SOL=$66.36
+2026-06-12 15:08:20,639 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:08:20 UTC
+2026-06-12 15:09:20,638 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 133 ──[0m
+2026-06-12 15:09:20,979 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,183.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.30, XRP=$1.13, SOL=$66.42
+2026-06-12 15:09:20,984 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:09:20 UTC
+2026-06-12 15:10:20,992 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 134 ──[0m
+2026-06-12 15:10:21,277 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,186.00, ADA=$0.17, DOGE=$0.09, ETH=$1,663.83, XRP=$1.13, SOL=$66.43
+2026-06-12 15:10:21,281 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:10:21 UTC
+2026-06-12 15:11:21,281 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 135 ──[0m
+2026-06-12 15:11:21,609 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,194.00, ADA=$0.17, DOGE=$0.09, ETH=$1,664.35, XRP=$1.14, SOL=$66.54
+2026-06-12 15:11:21,614 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:11:21 UTC
+2026-06-12 15:12:21,618 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 136 ──[0m
+2026-06-12 15:12:22,029 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,201.00, ADA=$0.17, DOGE=$0.09, ETH=$1,664.65, XRP=$1.14, SOL=$66.54
+2026-06-12 15:12:22,033 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:12:22 UTC
+2026-06-12 15:12:39,113 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:12:39,165 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:12:39,182 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:12:41,162 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:12:41,180 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:13:22,037 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 137 ──[0m
+2026-06-12 15:13:22,751 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,222.00, ADA=$0.17, DOGE=$0.09, ETH=$1,665.39, XRP=$1.14, SOL=$66.55
+2026-06-12 15:13:22,756 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:13:22 UTC
+2026-06-12 15:14:22,759 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 138 ──[0m
+2026-06-12 15:14:23,046 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,241.00, ADA=$0.17, DOGE=$0.09, ETH=$1,665.40, XRP=$1.14, SOL=$66.57
+2026-06-12 15:14:23,049 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:14:23 UTC
+2026-06-12 15:15:23,018 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 139 ──[0m
+2026-06-12 15:15:23,352 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,232.00, ADA=$0.17, DOGE=$0.09, ETH=$1,665.28, XRP=$1.14, SOL=$66.56
+2026-06-12 15:15:23,357 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:15:23 UTC
+2026-06-12 15:16:23,357 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 140 ──[0m
+2026-06-12 15:16:23,663 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,223.00, ADA=$0.17, DOGE=$0.09, ETH=$1,665.19, XRP=$1.14, SOL=$66.55
+2026-06-12 15:16:23,668 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:16:23 UTC
+2026-06-12 15:17:23,669 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 141 ──[0m
+2026-06-12 15:17:23,947 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,240.00, ADA=$0.17, DOGE=$0.09, ETH=$1,665.76, XRP=$1.14, SOL=$66.54
+2026-06-12 15:17:23,952 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:17:23 UTC
+2026-06-12 15:17:41,139 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:17:41,196 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:17:41,208 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 15:17:43,400 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:17:43,415 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:18:23,952 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 142 ──[0m
+2026-06-12 15:18:24,291 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,303.00, ADA=$0.17, DOGE=$0.09, ETH=$1,667.47, XRP=$1.14, SOL=$66.56
+2026-06-12 15:18:24,294 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:18:24 UTC
+2026-06-12 15:19:24,298 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 143 ──[0m
+2026-06-12 15:19:24,591 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,326.00, ADA=$0.17, DOGE=$0.09, ETH=$1,668.73, XRP=$1.14, SOL=$66.69
+2026-06-12 15:19:24,597 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:19:24 UTC
+2026-06-12 15:20:24,597 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 144 ──[0m
+2026-06-12 15:20:24,876 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,356.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.17, XRP=$1.14, SOL=$66.76
+2026-06-12 15:20:24,881 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:20:24 UTC
+2026-06-12 15:21:24,885 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 145 ──[0m
+2026-06-12 15:21:25,237 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,368.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.00, XRP=$1.14, SOL=$66.80
+2026-06-12 15:21:25,242 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:21:25 UTC
+2026-06-12 15:22:25,246 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 146 ──[0m
+2026-06-12 15:22:25,525 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,402.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.73, XRP=$1.14, SOL=$66.83
+2026-06-12 15:22:25,531 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:22:25 UTC
+2026-06-12 15:22:43,409 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:22:43,457 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:22:43,475 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:22:45,461 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:22:45,475 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:23:25,533 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 147 ──[0m
+2026-06-12 15:23:25,820 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,474.00, ADA=$0.17, DOGE=$0.09, ETH=$1,673.58, XRP=$1.14, SOL=$66.86
+2026-06-12 15:23:25,824 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:23:25 UTC
+2026-06-12 15:24:25,828 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 148 ──[0m
+2026-06-12 15:24:26,180 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,457.00, ADA=$0.17, DOGE=$0.09, ETH=$1,673.52, XRP=$1.14, SOL=$66.85
+2026-06-12 15:24:26,185 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:24:26 UTC
+2026-06-12 15:25:26,189 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 149 ──[0m
+2026-06-12 15:25:26,492 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,441.00, ADA=$0.17, DOGE=$0.09, ETH=$1,672.54, XRP=$1.14, SOL=$66.85
+2026-06-12 15:25:26,498 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:25:26 UTC
+2026-06-12 15:26:26,503 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 150 ──[0m
+2026-06-12 15:26:26,794 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,424.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.81, XRP=$1.14, SOL=$66.82
+2026-06-12 15:26:26,801 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:26:26 UTC
+2026-06-12 15:27:26,800 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 151 ──[0m
+2026-06-12 15:27:27,125 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,416.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.40, XRP=$1.14, SOL=$66.80
+2026-06-12 15:27:27,130 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:27:27 UTC
+2026-06-12 15:27:45,466 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:27:45,517 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:27:45,527 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:27:47,525 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:27:47,538 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:28:27,133 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 152 ──[0m
+2026-06-12 15:28:27,545 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,416.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.20, XRP=$1.14, SOL=$66.80
+2026-06-12 15:28:27,549 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:28:27 UTC
+2026-06-12 15:29:27,553 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 153 ──[0m
+2026-06-12 15:29:27,857 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,434.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.98, XRP=$1.14, SOL=$66.84
+2026-06-12 15:29:27,861 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:29:27 UTC
+2026-06-12 15:30:27,862 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 154 ──[0m
+2026-06-12 15:30:28,170 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,447.00, ADA=$0.17, DOGE=$0.09, ETH=$1,672.74, XRP=$1.14, SOL=$66.85
+2026-06-12 15:30:28,176 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:30:28 UTC
+2026-06-12 15:31:28,178 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 155 ──[0m
+2026-06-12 15:31:28,586 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,436.00, ADA=$0.17, DOGE=$0.09, ETH=$1,672.49, XRP=$1.14, SOL=$66.85
+2026-06-12 15:31:28,593 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:31:28 UTC
+2026-06-12 15:32:28,597 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 156 ──[0m
+2026-06-12 15:32:28,901 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,405.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.67, XRP=$1.14, SOL=$66.85
+2026-06-12 15:32:28,906 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:32:28 UTC
+2026-06-12 15:32:47,526 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:32:47,582 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:32:47,602 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:32:49,592 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:32:49,605 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for ETH
+2026-06-12 15:33:28,911 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 157 ──[0m
+2026-06-12 15:33:29,203 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,403.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.66, XRP=$1.14, SOL=$66.83
+2026-06-12 15:33:29,210 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:33:29 UTC
+2026-06-12 15:34:29,212 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 158 ──[0m
+2026-06-12 15:34:29,533 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,411.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.91, XRP=$1.14, SOL=$66.83
+2026-06-12 15:34:29,538 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:34:29 UTC
+2026-06-12 15:35:29,542 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 159 ──[0m
+2026-06-12 15:35:29,948 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,408.00, ADA=$0.17, DOGE=$0.09, ETH=$1,672.27, XRP=$1.14, SOL=$66.84
+2026-06-12 15:35:29,952 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:35:29 UTC
+2026-06-12 15:36:29,955 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 160 ──[0m
+2026-06-12 15:36:30,267 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,392.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.67, XRP=$1.14, SOL=$66.84
+2026-06-12 15:36:30,270 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:36:30 UTC
+2026-06-12 15:37:30,280 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 161 ──[0m
+2026-06-12 15:37:30,592 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,384.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.77, XRP=$1.14, SOL=$66.83
+2026-06-12 15:37:30,640 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:37:30 UTC
+2026-06-12 15:37:49,598 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:37:49,660 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:37:49,674 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:37:51,679 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:37:51,693 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:38:30,644 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 162 ──[0m
+2026-06-12 15:38:30,938 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,375.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.47, XRP=$1.14, SOL=$66.78
+2026-06-12 15:38:30,947 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:38:30 UTC
+2026-06-12 15:39:30,951 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 163 ──[0m
+2026-06-12 15:39:31,309 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,381.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.42, XRP=$1.14, SOL=$66.78
+2026-06-12 15:39:31,315 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:39:31 UTC
+2026-06-12 15:40:31,316 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 164 ──[0m
+2026-06-12 15:40:31,624 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,394.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.23, XRP=$1.14, SOL=$66.80
+2026-06-12 15:40:31,628 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:40:31 UTC
+2026-06-12 15:41:31,627 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 165 ──[0m
+2026-06-12 15:41:31,935 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,384.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.09, XRP=$1.14, SOL=$66.81
+2026-06-12 15:41:31,940 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:41:31 UTC
+2026-06-12 15:42:31,940 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 166 ──[0m
+2026-06-12 15:42:32,252 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,356.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.12, XRP=$1.14, SOL=$66.80
+2026-06-12 15:42:32,257 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:42:32 UTC
+2026-06-12 15:42:51,686 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:42:52,018 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:42:52,032 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 1 OHLC rows for BTC
+2026-06-12 15:42:53,736 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:42:53,746 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:43:32,261 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 167 ──[0m
+2026-06-12 15:43:32,546 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,337.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.82, XRP=$1.14, SOL=$66.78
+2026-06-12 15:43:32,551 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:43:32 UTC
+2026-06-12 15:44:32,555 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 168 ──[0m
+2026-06-12 15:44:32,844 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,319.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.14, XRP=$1.14, SOL=$66.77
+2026-06-12 15:44:32,849 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:44:32 UTC
+2026-06-12 15:45:32,852 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 169 ──[0m
+2026-06-12 15:45:33,136 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,312.00, ADA=$0.17, DOGE=$0.09, ETH=$1,668.93, XRP=$1.14, SOL=$66.76
+2026-06-12 15:45:33,139 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:45:33 UTC
+2026-06-12 15:46:33,132 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 170 ──[0m
+2026-06-12 15:46:33,417 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,306.00, ADA=$0.17, DOGE=$0.09, ETH=$1,668.82, XRP=$1.14, SOL=$66.75
+2026-06-12 15:46:33,423 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:46:33 UTC
+2026-06-12 15:47:33,395 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 171 ──[0m
+2026-06-12 15:47:33,784 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,307.00, ADA=$0.17, DOGE=$0.09, ETH=$1,668.73, XRP=$1.14, SOL=$66.74
+2026-06-12 15:47:33,790 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:47:33 UTC
+2026-06-12 15:47:53,698 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:47:53,752 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:47:53,773 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:47:55,991 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:47:56,002 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:48:33,788 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 172 ──[0m
+2026-06-12 15:48:34,097 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,335.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.34, XRP=$1.14, SOL=$66.74
+2026-06-12 15:48:34,101 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:48:34 UTC
+2026-06-12 15:49:34,103 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 173 ──[0m
+2026-06-12 15:49:34,397 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,352.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.05, XRP=$1.14, SOL=$66.76
+2026-06-12 15:49:34,404 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:49:34 UTC
+2026-06-12 15:50:34,405 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 174 ──[0m
+2026-06-12 15:50:34,706 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,349.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.95, XRP=$1.14, SOL=$66.76
+2026-06-12 15:50:34,712 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:50:34 UTC
+2026-06-12 15:51:34,716 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 175 ──[0m
+2026-06-12 15:51:35,041 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,339.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.85, XRP=$1.14, SOL=$66.76
+2026-06-12 15:51:35,046 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:51:35 UTC
+2026-06-12 15:52:35,049 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 176 ──[0m
+2026-06-12 15:52:35,352 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,342.00, ADA=$0.17, DOGE=$0.09, ETH=$1,669.88, XRP=$1.14, SOL=$66.76
+2026-06-12 15:52:35,357 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:52:35 UTC
+2026-06-12 15:52:55,993 | INFO     | StreamingEngine      | [38;5;221m[1m┃[0m[38;5;221m Fetching OHLC data for ['bitcoin', 'ethereum']...
+2026-06-12 15:52:56,056 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for bitcoin
+2026-06-12 15:52:56,074 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for BTC
+2026-06-12 15:52:58,055 | INFO     | src.api_client       | [38;5;221m[1m┃[0m[38;5;221m Fetched 48 OHLC candles for ethereum
+2026-06-12 15:52:58,073 | INFO     | src.db_manager       | [38;5;221m[1m┃[0m[38;5;221m Inserted 0 OHLC rows for ETH
+2026-06-12 15:53:35,357 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 177 ──[0m
+2026-06-12 15:53:35,634 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,362.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.66, XRP=$1.14, SOL=$66.77
+2026-06-12 15:53:35,638 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:53:35 UTC
+2026-06-12 15:54:35,637 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 178 ──[0m
+2026-06-12 15:54:35,983 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,379.00, ADA=$0.17, DOGE=$0.09, ETH=$1,670.93, XRP=$1.14, SOL=$66.78
+2026-06-12 15:54:35,988 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:54:35 UTC
+2026-06-12 15:55:35,986 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 179 ──[0m
+2026-06-12 15:55:36,911 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,380.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.08, XRP=$1.14, SOL=$66.79
+2026-06-12 15:55:36,915 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:55:36 UTC
+2026-06-12 15:56:36,917 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 180 ──[0m
+2026-06-12 15:56:37,329 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,374.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.04, XRP=$1.14, SOL=$66.79
+2026-06-12 15:56:37,332 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:56:37 UTC
+2026-06-12 15:57:37,336 | INFO     | StreamingEngine      | [2m[38;5;80m── Cycle 181 ──[0m
+2026-06-12 15:57:37,640 | INFO     | src.api_client       | [38;5;80m[1m◆[0m[38;5;80m Fetched prices for 6 coins: BTC=$63,396.00, ADA=$0.17, DOGE=$0.09, ETH=$1,671.46, XRP=$1.14, SOL=$66.81
+2026-06-12 15:57:37,643 | INFO     | src.db_manager       | [38;5;80m[1m◆[0m[38;5;80m Inserted 6 ticker rows at 08:57:37 UTC
+2026-06-12 15:57:43,404 | INFO     | StreamingEngine      | 
+2026-06-12 15:57:43,404 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 15:57:43,404 | INFO     | StreamingEngine      | [38;5;204m[1m■[0m[38;5;204m Stopping Streaming Engine...
+2026-06-12 15:57:43,405 | INFO     | StreamingEngine      | [38;5;183m[1m▊[0m[38;5;183m Final Statistics:
+2026-06-12 15:57:43,405 | INFO     | StreamingEngine      |    [2m›[0m Runtime: 11006.4 seconds
+2026-06-12 15:57:43,405 | INFO     | StreamingEngine      |    [2m›[0m Ticker rows inserted: 1086
+2026-06-12 15:57:43,405 | INFO     | StreamingEngine      |    [2m›[0m OHLC rows inserted: 15
+2026-06-12 15:57:43,405 | INFO     | StreamingEngine      |    [2m›[0m Fetch errors: 0
+2026-06-12 15:57:43,408 | INFO     | StreamingEngine      |    [38;5;75m[1m⬡[0m[38;5;75m Total in market_ticker: 1758 rows
+2026-06-12 15:57:43,408 | INFO     | StreamingEngine      |    [38;5;75m[1m⬡[0m[38;5;75m Total in market_ohlc: 457 rows
+2026-06-12 15:57:43,408 | INFO     | src.db_manager       | [2m◌[0m Disconnected from PostgreSQL
+2026-06-12 15:57:43,408 | INFO     | StreamingEngine      | [2m════════════════════════════════════════════════════════════[0m
+2026-06-12 15:57:43,408 | INFO     | StreamingEngine      | [2m◌[0m Engine stopped. Goodbye!

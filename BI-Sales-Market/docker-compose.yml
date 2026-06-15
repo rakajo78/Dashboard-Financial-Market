@@ -1,0 +1,68 @@
+
+
+x-superset-common: &superset-common
+  image: apache/superset:latest
+  environment: &superset-env
+    SUPERSET_SECRET_KEY: "BI-Sales-Market-Secret-Key-2026"
+    SUPERSET_LOAD_EXAMPLES: "no"
+    # Database for Superset metadata (internal SQLite)
+    SQLALCHEMY_DATABASE_URI: "sqlite:////app/superset_home/superset.db"
+    # Admin user (created via init)
+    ADMIN_USERNAME: admin
+    ADMIN_PASSWORD: admin123
+    ADMIN_EMAIL: admin@superset.local
+    ADMIN_FIRSTNAME: Admin
+    ADMIN_LASTNAME: BI
+  volumes:
+    - superset_home:/app/superset_home
+  # OrbStack automatically resolves host.docker.internal
+
+services:
+  superset-init:
+    <<: *superset-common
+    container_name: superset-init
+    command: >
+      bash -c "
+        echo '🔧 Initializing Superset...' &&
+        superset db upgrade &&
+        superset fab create-admin \
+          --username admin \
+          --password admin123 \
+          --firstname Admin \
+          --lastname BI \
+          --email admin@superset.local || true &&
+        superset init &&
+        echo '✅ Superset initialized!'
+      "
+    restart: "no"
+    healthcheck:
+      disable: true
+
+  superset:
+    <<: *superset-common
+    container_name: superset
+    ports:
+      - "8088:8088"
+    depends_on:
+      superset-init:
+        condition: service_completed_successfully
+    command: >
+      bash -c "
+        superset db upgrade &&
+        gunicorn \
+          --bind 0.0.0.0:8088 \
+          --workers 2 \
+          --timeout 120 \
+          --limit-request-line 0 \
+          --limit-request-field_size 0 \
+          'superset.app:create_app()'
+      "
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8088/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  superset_home:
